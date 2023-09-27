@@ -1,0 +1,123 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AlyciaITR
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AlyciaITR
+import Cartography
+import Foundation
+import ProgressHUD
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers public class Curl : ObjectiveC.NSObject {
+  public enum Status : Swift.Int {
+    case vacation
+    case work
+    case lunch
+    case sick
+    public func string() -> Swift.String
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public struct MyJsonData : Swift.Codable {
+    public let data: AlyciaITR.Curl.MyJsonData.SampleData
+    public struct SampleData : Swift.Codable {
+      public let user: Swift.String
+      public let error: Swift.String?
+      public let status: Swift.Int
+      public let list: [Swift.String]
+      public let image: Swift.String
+      public func encode(to encoder: Swift.Encoder) throws
+      public init(from decoder: Swift.Decoder) throws
+    }
+    public func content() -> AlyciaITR.Curl.MyJsonData.SampleData
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public struct User : Swift.Codable {
+    public let items: [AlyciaITR.Curl.User.Item]
+    public struct Item : Swift.Codable {
+      public let login: Swift.String
+      public let html_url: Foundation.URL
+      public func encode(to encoder: Swift.Encoder) throws
+      public init(from decoder: Swift.Decoder) throws
+    }
+    public func debugString() -> Swift.String
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public func setBackground(view: UIKit.UIView)
+  public func setView(view: UIKit.UIView)
+  public func addLabel(text: Swift.String, view: UIKit.UIView)
+  public func getImage() -> UIKit.UIImage?
+  public func getStateIcon(status: AlyciaITR.Curl.Status) -> UIKit.UIImage?
+  public func setGradientBackground(view: UIKit.UIView)
+  public func setPaleGradientBackground(view: UIKit.UIView)
+  public func searchGithubUser(user: Swift.String)
+  public func getSampleData()
+  @objc override dynamic public init()
+  @objc deinit
+}
+final public class Alycia {
+  public init()
+  final public func sayHello() -> Swift.String
+  final public func setAlycia(view: UIKit.UIView)
+  final public func showProgress(view: UIKit.UIView)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CardDetailTableViewCell : UIKit.UITableViewCell {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func configure(date: Swift.String, summary: Swift.String, amount: Swift.Int, memo: Swift.String = "")
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Notifications : ObjectiveC.NSObject {
+  public static let RequestButtonNotification: Foundation.Notification.Name
+  public static let SearchUserNotification: Foundation.Notification.Name
+  public static let SampleAPINotification: Foundation.Notification.Name
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.Int {
+  public func toGroupedFormat() -> Swift.String
+}
+@objc @_inheritsConvenienceInitializers public class Rick : ObjectiveC.NSObject {
+  public enum Status : Swift.Int {
+    case authorized
+    case rejected
+    case unknown
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public func auth(user: Swift.String) -> AlyciaITR.Rick.Status
+  public func draw() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class RequestButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) public init(str: Swift.String, p: UIKit.UIViewController, setTarget: Swift.Bool, height: CoreFoundation.CGFloat = 40)
+  @_Concurrency.MainActor(unsafe) public func adjustView(value: CoreFoundation.CGFloat)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class UserTableViewCell : UIKit.UITableViewCell {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public func configure(name: Swift.String, url: Swift.String, cellHeight: CoreFoundation.CGFloat = 0)
+  @objc deinit
+}
+extension AlyciaITR.Curl.Status : Swift.Equatable {}
+extension AlyciaITR.Curl.Status : Swift.Hashable {}
+extension AlyciaITR.Curl.Status : Swift.RawRepresentable {}
+extension AlyciaITR.Rick.Status : Swift.Equatable {}
+extension AlyciaITR.Rick.Status : Swift.Hashable {}
+extension AlyciaITR.Rick.Status : Swift.RawRepresentable {}

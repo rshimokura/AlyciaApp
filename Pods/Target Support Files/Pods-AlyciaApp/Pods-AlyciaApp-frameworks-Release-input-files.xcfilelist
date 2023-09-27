@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AlyciaITR/AlyciaITR.framework/AlyciaITR

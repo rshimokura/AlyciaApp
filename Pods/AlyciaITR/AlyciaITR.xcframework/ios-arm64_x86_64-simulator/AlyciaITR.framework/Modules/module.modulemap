@@ -1,0 +1,11 @@
+framework module AlyciaITR {
+  umbrella header "AlyciaITR.h"
+
+  export *
+  module * { export * }
+}
+
+module AlyciaITR.Swift {
+  header "AlyciaITR-Swift.h"
+  requires objc
+}

@@ -1,0 +1,3866 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Cartography",
+        "printedName": "Cartography",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Curl",
+        "printedName": "Curl",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Status",
+            "printedName": "Status",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "vacation",
+                "printedName": "vacation",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AlyciaITR.Curl.Status.Type) -> AlyciaITR.Curl.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Curl.Status",
+                        "usr": "s:9AlyciaITR4CurlC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AlyciaITR.Curl.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AlyciaITR.Curl.Status",
+                            "usr": "s:9AlyciaITR4CurlC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AlyciaITR4CurlC6StatusO8vacationyA2EmF",
+                "mangledName": "$s9AlyciaITR4CurlC6StatusO8vacationyA2EmF",
+                "moduleName": "AlyciaITR"
+              },
+              {
+                "kind": "Var",
+                "name": "work",
+                "printedName": "work",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AlyciaITR.Curl.Status.Type) -> AlyciaITR.Curl.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Curl.Status",
+                        "usr": "s:9AlyciaITR4CurlC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AlyciaITR.Curl.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AlyciaITR.Curl.Status",
+                            "usr": "s:9AlyciaITR4CurlC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AlyciaITR4CurlC6StatusO4workyA2EmF",
+                "mangledName": "$s9AlyciaITR4CurlC6StatusO4workyA2EmF",
+                "moduleName": "AlyciaITR"
+              },
+              {
+                "kind": "Var",
+                "name": "lunch",
+                "printedName": "lunch",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AlyciaITR.Curl.Status.Type) -> AlyciaITR.Curl.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Curl.Status",
+                        "usr": "s:9AlyciaITR4CurlC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AlyciaITR.Curl.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AlyciaITR.Curl.Status",
+                            "usr": "s:9AlyciaITR4CurlC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AlyciaITR4CurlC6StatusO5lunchyA2EmF",
+                "mangledName": "$s9AlyciaITR4CurlC6StatusO5lunchyA2EmF",
+                "moduleName": "AlyciaITR"
+              },
+              {
+                "kind": "Var",
+                "name": "sick",
+                "printedName": "sick",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AlyciaITR.Curl.Status.Type) -> AlyciaITR.Curl.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Curl.Status",
+                        "usr": "s:9AlyciaITR4CurlC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AlyciaITR.Curl.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AlyciaITR.Curl.Status",
+                            "usr": "s:9AlyciaITR4CurlC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AlyciaITR4CurlC6StatusO4sickyA2EmF",
+                "mangledName": "$s9AlyciaITR4CurlC6StatusO4sickyA2EmF",
+                "moduleName": "AlyciaITR"
+              },
+              {
+                "kind": "Function",
+                "name": "string",
+                "printedName": "string()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9AlyciaITR4CurlC6StatusO6stringSSyF",
+                "mangledName": "$s9AlyciaITR4CurlC6StatusO6stringSSyF",
+                "moduleName": "AlyciaITR",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AlyciaITR.Curl.Status?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Curl.Status",
+                        "usr": "s:9AlyciaITR4CurlC6StatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9AlyciaITR4CurlC6StatusO8rawValueAESgSi_tcfc",
+                "mangledName": "$s9AlyciaITR4CurlC6StatusO8rawValueAESgSi_tcfc",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AlyciaITR4CurlC6StatusO8rawValueSivp",
+                "mangledName": "$s9AlyciaITR4CurlC6StatusO8rawValueSivp",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AlyciaITR4CurlC6StatusO8rawValueSivg",
+                    "mangledName": "$s9AlyciaITR4CurlC6StatusO8rawValueSivg",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9AlyciaITR4CurlC6StatusO",
+            "mangledName": "$s9AlyciaITR4CurlC6StatusO",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "MyJsonData",
+            "printedName": "MyJsonData",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SampleData",
+                    "printedName": "AlyciaITR.Curl.MyJsonData.SampleData",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AlyciaITR4CurlC10MyJsonDataV4dataAE06SampleF0Vvp",
+                "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV4dataAE06SampleF0Vvp",
+                "moduleName": "AlyciaITR",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SampleData",
+                        "printedName": "AlyciaITR.Curl.MyJsonData.SampleData",
+                        "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV4dataAE06SampleF0Vvg",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV4dataAE06SampleF0Vvg",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "SampleData",
+                "printedName": "SampleData",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "user",
+                    "printedName": "user",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4userSSvp",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4userSSvp",
+                    "moduleName": "AlyciaITR",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4userSSvg",
+                        "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4userSSvg",
+                        "moduleName": "AlyciaITR",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "error",
+                    "printedName": "error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5errorSSSgvp",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5errorSSSgvp",
+                    "moduleName": "AlyciaITR",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5errorSSSgvg",
+                        "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5errorSSSgvg",
+                        "moduleName": "AlyciaITR",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "status",
+                    "printedName": "status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V6statusSivp",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V6statusSivp",
+                    "moduleName": "AlyciaITR",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V6statusSivg",
+                        "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V6statusSivg",
+                        "moduleName": "AlyciaITR",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "list",
+                    "printedName": "list",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4listSaySSGvp",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4listSaySSGvp",
+                    "moduleName": "AlyciaITR",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4listSaySSGvg",
+                        "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4listSaySSGvg",
+                        "moduleName": "AlyciaITR",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "image",
+                    "printedName": "image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5imageSSvp",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5imageSSvp",
+                    "moduleName": "AlyciaITR",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5imageSSvg",
+                        "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V5imageSSvg",
+                        "moduleName": "AlyciaITR",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(from:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SampleData",
+                        "printedName": "AlyciaITR.Curl.MyJsonData.SampleData",
+                        "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decoder",
+                        "printedName": "Swift.Decoder",
+                        "usr": "s:s7DecoderP"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4fromAGs7Decoder_p_tKcfc",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V4fromAGs7Decoder_p_tKcfc",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "throwing": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V6encode2toys7Encoder_p_tKF",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V",
+                "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV06SampleF0V",
+                "moduleName": "AlyciaITR",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "content",
+                "printedName": "content()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SampleData",
+                    "printedName": "AlyciaITR.Curl.MyJsonData.SampleData",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV06SampleF0V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9AlyciaITR4CurlC10MyJsonDataV7contentAE06SampleF0VyF",
+                "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV7contentAE06SampleF0VyF",
+                "moduleName": "AlyciaITR",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyJsonData",
+                    "printedName": "AlyciaITR.Curl.MyJsonData",
+                    "usr": "s:9AlyciaITR4CurlC10MyJsonDataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9AlyciaITR4CurlC10MyJsonDataV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9AlyciaITR4CurlC10MyJsonDataV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV6encode2toys7Encoder_p_tKF",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9AlyciaITR4CurlC10MyJsonDataV",
+            "mangledName": "$s9AlyciaITR4CurlC10MyJsonDataV",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "User",
+            "printedName": "User",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "items",
+                "printedName": "items",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AlyciaITR.Curl.User.Item]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Item",
+                        "printedName": "AlyciaITR.Curl.User.Item",
+                        "usr": "s:9AlyciaITR4CurlC4UserV4ItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AlyciaITR4CurlC4UserV5itemsSayAE4ItemVGvp",
+                "mangledName": "$s9AlyciaITR4CurlC4UserV5itemsSayAE4ItemVGvp",
+                "moduleName": "AlyciaITR",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AlyciaITR.Curl.User.Item]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Item",
+                            "printedName": "AlyciaITR.Curl.User.Item",
+                            "usr": "s:9AlyciaITR4CurlC4UserV4ItemV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AlyciaITR4CurlC4UserV5itemsSayAE4ItemVGvg",
+                    "mangledName": "$s9AlyciaITR4CurlC4UserV5itemsSayAE4ItemVGvg",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Item",
+                "printedName": "Item",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "login",
+                    "printedName": "login",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9AlyciaITR4CurlC4UserV4ItemV5loginSSvp",
+                    "mangledName": "$s9AlyciaITR4CurlC4UserV4ItemV5loginSSvp",
+                    "moduleName": "AlyciaITR",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9AlyciaITR4CurlC4UserV4ItemV5loginSSvg",
+                        "mangledName": "$s9AlyciaITR4CurlC4UserV4ItemV5loginSSvg",
+                        "moduleName": "AlyciaITR",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "html_url",
+                    "printedName": "html_url",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9AlyciaITR4CurlC4UserV4ItemV8html_url10Foundation3URLVvp",
+                    "mangledName": "$s9AlyciaITR4CurlC4UserV4ItemV8html_url10Foundation3URLVvp",
+                    "moduleName": "AlyciaITR",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9AlyciaITR4CurlC4UserV4ItemV8html_url10Foundation3URLVvg",
+                        "mangledName": "$s9AlyciaITR4CurlC4UserV4ItemV8html_url10Foundation3URLVvg",
+                        "moduleName": "AlyciaITR",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(from:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Item",
+                        "printedName": "AlyciaITR.Curl.User.Item",
+                        "usr": "s:9AlyciaITR4CurlC4UserV4ItemV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decoder",
+                        "printedName": "Swift.Decoder",
+                        "usr": "s:s7DecoderP"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:9AlyciaITR4CurlC4UserV4ItemV4fromAGs7Decoder_p_tKcfc",
+                    "mangledName": "$s9AlyciaITR4CurlC4UserV4ItemV4fromAGs7Decoder_p_tKcfc",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "throwing": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9AlyciaITR4CurlC4UserV4ItemV6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s9AlyciaITR4CurlC4UserV4ItemV6encode2toys7Encoder_p_tKF",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:9AlyciaITR4CurlC4UserV4ItemV",
+                "mangledName": "$s9AlyciaITR4CurlC4UserV4ItemV",
+                "moduleName": "AlyciaITR",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "debugString",
+                "printedName": "debugString()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9AlyciaITR4CurlC4UserV11debugStringSSyF",
+                "mangledName": "$s9AlyciaITR4CurlC4UserV11debugStringSSyF",
+                "moduleName": "AlyciaITR",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "AlyciaITR.Curl.User",
+                    "usr": "s:9AlyciaITR4CurlC4UserV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9AlyciaITR4CurlC4UserV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s9AlyciaITR4CurlC4UserV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9AlyciaITR4CurlC4UserV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s9AlyciaITR4CurlC4UserV6encode2toys7Encoder_p_tKF",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9AlyciaITR4CurlC4UserV",
+            "mangledName": "$s9AlyciaITR4CurlC4UserV",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setBackground",
+            "printedName": "setBackground(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC13setBackground4viewySo6UIViewC_tF",
+            "mangledName": "$s9AlyciaITR4CurlC13setBackground4viewySo6UIViewC_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setView",
+            "printedName": "setView(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC7setView4viewySo6UIViewC_tF",
+            "mangledName": "$s9AlyciaITR4CurlC7setView4viewySo6UIViewC_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addLabel",
+            "printedName": "addLabel(text:view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC8addLabel4text4viewySS_So6UIViewCtF",
+            "mangledName": "$s9AlyciaITR4CurlC8addLabel4text4viewySS_So6UIViewCtF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getImage",
+            "printedName": "getImage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC8getImageSo7UIImageCSgyF",
+            "mangledName": "$s9AlyciaITR4CurlC8getImageSo7UIImageCSgyF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStateIcon",
+            "printedName": "getStateIcon(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "AlyciaITR.Curl.Status",
+                "usr": "s:9AlyciaITR4CurlC6StatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC12getStateIcon6statusSo7UIImageCSgAC6StatusO_tF",
+            "mangledName": "$s9AlyciaITR4CurlC12getStateIcon6statusSo7UIImageCSgAC6StatusO_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGradientBackground",
+            "printedName": "setGradientBackground(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC21setGradientBackground4viewySo6UIViewC_tF",
+            "mangledName": "$s9AlyciaITR4CurlC21setGradientBackground4viewySo6UIViewC_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPaleGradientBackground",
+            "printedName": "setPaleGradientBackground(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC25setPaleGradientBackground4viewySo6UIViewC_tF",
+            "mangledName": "$s9AlyciaITR4CurlC25setPaleGradientBackground4viewySo6UIViewC_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchGithubUser",
+            "printedName": "searchGithubUser(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC16searchGithubUser4userySS_tF",
+            "mangledName": "$s9AlyciaITR4CurlC16searchGithubUser4userySS_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSampleData",
+            "printedName": "getSampleData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4CurlC13getSampleDatayyF",
+            "mangledName": "$s9AlyciaITR4CurlC13getSampleDatayyF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Curl",
+                "printedName": "AlyciaITR.Curl",
+                "usr": "c:@M@AlyciaITR@objc(cs)Curl"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)Curl(im)init",
+            "mangledName": "$s9AlyciaITR4CurlCACycfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlyciaITR@objc(cs)Curl",
+        "mangledName": "$s9AlyciaITR4CurlC",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Cartography",
+        "printedName": "Cartography",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR"
+      },
+      {
+        "kind": "Import",
+        "name": "ProgressHUD",
+        "printedName": "ProgressHUD",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Alycia",
+        "printedName": "Alycia",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Alycia",
+                "printedName": "AlyciaITR.Alycia",
+                "usr": "s:9AlyciaITR0A0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AlyciaITR0A0CACycfc",
+            "mangledName": "$s9AlyciaITR0A0CACycfc",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR0A0C8sayHelloSSyF",
+            "mangledName": "$s9AlyciaITR0A0C8sayHelloSSyF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAlycia",
+            "printedName": "setAlycia(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR0A0C03setA04viewySo6UIViewC_tF",
+            "mangledName": "$s9AlyciaITR0A0C03setA04viewySo6UIViewC_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showProgress",
+            "printedName": "showProgress(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR0A0C12showProgress4viewySo6UIViewC_tF",
+            "mangledName": "$s9AlyciaITR0A0C12showProgress4viewySo6UIViewC_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9AlyciaITR0A0C",
+        "mangledName": "$s9AlyciaITR0A0C",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Cartography",
+        "printedName": "Cartography",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardDetailTableViewCell",
+        "printedName": "CardDetailTableViewCell",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AlyciaITR@objc(cs)CardDetailTableViewCell(im)awakeFromNib",
+            "mangledName": "$s9AlyciaITR23CardDetailTableViewCellC12awakeFromNibyyF",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AlyciaITR.CardDetailTableViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardDetailTableViewCell",
+                    "printedName": "AlyciaITR.CardDetailTableViewCell",
+                    "usr": "c:@M@AlyciaITR@objc(cs)CardDetailTableViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)CardDetailTableViewCell(im)initWithCoder:",
+            "mangledName": "$s9AlyciaITR23CardDetailTableViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:reuseIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardDetailTableViewCell",
+                "printedName": "AlyciaITR.CardDetailTableViewCell",
+                "usr": "c:@M@AlyciaITR@objc(cs)CardDetailTableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CellStyle",
+                "printedName": "UIKit.UITableViewCell.CellStyle",
+                "usr": "c:@E@UITableViewCellStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)CardDetailTableViewCell(im)initWithStyle:reuseIdentifier:",
+            "mangledName": "$s9AlyciaITR23CardDetailTableViewCellC5style15reuseIdentifierACSo07UITablefG5StyleV_SSSgtcfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "objc_name": "initWithStyle:reuseIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(date:summary:amount:memo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR23CardDetailTableViewCellC9configure4date7summary6amount4memoySS_SSSiSStF",
+            "mangledName": "$s9AlyciaITR23CardDetailTableViewCellC9configure4date7summary6amount4memoySS_SSSiSStF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSelected",
+            "printedName": "setSelected(_:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AlyciaITR@objc(cs)CardDetailTableViewCell(im)setSelected:animated:",
+            "mangledName": "$s9AlyciaITR23CardDetailTableViewCellC11setSelected_8animatedySb_SbtF",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "objc_name": "setSelected:animated:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlyciaITR@objc(cs)CardDetailTableViewCell",
+        "mangledName": "$s9AlyciaITR23CardDetailTableViewCellC",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableViewCell",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableViewCell",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutItem",
+            "printedName": "LayoutItem",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ProxyType",
+                "printedName": "ProxyType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewProxy",
+                    "printedName": "Cartography.ViewProxy",
+                    "usr": "s:11Cartography9ViewProxyC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Cartography10LayoutItemP",
+            "mangledName": "$s11Cartography10LayoutItemP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Notifications",
+        "printedName": "Notifications",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "RequestButtonNotification",
+            "printedName": "RequestButtonNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AlyciaITR13NotificationsC25RequestButtonNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s9AlyciaITR13NotificationsC25RequestButtonNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "AlyciaITR",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AlyciaITR13NotificationsC25RequestButtonNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s9AlyciaITR13NotificationsC25RequestButtonNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "AlyciaITR",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SearchUserNotification",
+            "printedName": "SearchUserNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AlyciaITR13NotificationsC22SearchUserNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s9AlyciaITR13NotificationsC22SearchUserNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "AlyciaITR",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AlyciaITR13NotificationsC22SearchUserNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s9AlyciaITR13NotificationsC22SearchUserNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "AlyciaITR",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SampleAPINotification",
+            "printedName": "SampleAPINotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AlyciaITR13NotificationsC21SampleAPINotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s9AlyciaITR13NotificationsC21SampleAPINotificationSo18NSNotificationNameavpZ",
+            "moduleName": "AlyciaITR",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AlyciaITR13NotificationsC21SampleAPINotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s9AlyciaITR13NotificationsC21SampleAPINotificationSo18NSNotificationNameavgZ",
+                "moduleName": "AlyciaITR",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Notifications",
+                "printedName": "AlyciaITR.Notifications",
+                "usr": "c:@M@AlyciaITR@objc(cs)Notifications"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)Notifications(im)init",
+            "mangledName": "$s9AlyciaITR13NotificationsCACycfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlyciaITR@objc(cs)Notifications",
+        "mangledName": "$s9AlyciaITR13NotificationsC",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Rick",
+        "printedName": "Rick",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Status",
+            "printedName": "Status",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "authorized",
+                "printedName": "authorized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AlyciaITR.Rick.Status.Type) -> AlyciaITR.Rick.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Rick.Status",
+                        "usr": "s:9AlyciaITR4RickC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AlyciaITR.Rick.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AlyciaITR.Rick.Status",
+                            "usr": "s:9AlyciaITR4RickC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AlyciaITR4RickC6StatusO10authorizedyA2EmF",
+                "mangledName": "$s9AlyciaITR4RickC6StatusO10authorizedyA2EmF",
+                "moduleName": "AlyciaITR"
+              },
+              {
+                "kind": "Var",
+                "name": "rejected",
+                "printedName": "rejected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AlyciaITR.Rick.Status.Type) -> AlyciaITR.Rick.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Rick.Status",
+                        "usr": "s:9AlyciaITR4RickC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AlyciaITR.Rick.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AlyciaITR.Rick.Status",
+                            "usr": "s:9AlyciaITR4RickC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AlyciaITR4RickC6StatusO8rejectedyA2EmF",
+                "mangledName": "$s9AlyciaITR4RickC6StatusO8rejectedyA2EmF",
+                "moduleName": "AlyciaITR"
+              },
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AlyciaITR.Rick.Status.Type) -> AlyciaITR.Rick.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Rick.Status",
+                        "usr": "s:9AlyciaITR4RickC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AlyciaITR.Rick.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AlyciaITR.Rick.Status",
+                            "usr": "s:9AlyciaITR4RickC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9AlyciaITR4RickC6StatusO7unknownyA2EmF",
+                "mangledName": "$s9AlyciaITR4RickC6StatusO7unknownyA2EmF",
+                "moduleName": "AlyciaITR"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AlyciaITR.Rick.Status?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AlyciaITR.Rick.Status",
+                        "usr": "s:9AlyciaITR4RickC6StatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9AlyciaITR4RickC6StatusO8rawValueAESgSi_tcfc",
+                "mangledName": "$s9AlyciaITR4RickC6StatusO8rawValueAESgSi_tcfc",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AlyciaITR4RickC6StatusO8rawValueSivp",
+                "mangledName": "$s9AlyciaITR4RickC6StatusO8rawValueSivp",
+                "moduleName": "AlyciaITR",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AlyciaITR4RickC6StatusO8rawValueSivg",
+                    "mangledName": "$s9AlyciaITR4RickC6StatusO8rawValueSivg",
+                    "moduleName": "AlyciaITR",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9AlyciaITR4RickC6StatusO",
+            "mangledName": "$s9AlyciaITR4RickC6StatusO",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "auth",
+            "printedName": "auth(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "AlyciaITR.Rick.Status",
+                "usr": "s:9AlyciaITR4RickC6StatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4RickC4auth4userAC6StatusOSS_tF",
+            "mangledName": "$s9AlyciaITR4RickC4auth4userAC6StatusOSS_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR4RickC4drawSSyF",
+            "mangledName": "$s9AlyciaITR4RickC4drawSSyF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Rick",
+                "printedName": "AlyciaITR.Rick",
+                "usr": "c:@M@AlyciaITR@objc(cs)Rick"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)Rick(im)init",
+            "mangledName": "$s9AlyciaITR4RickCACycfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlyciaITR@objc(cs)Rick",
+        "mangledName": "$s9AlyciaITR4RickC",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Cartography",
+        "printedName": "Cartography",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestButton",
+        "printedName": "RequestButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(str:p:setTarget:height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestButton",
+                "printedName": "AlyciaITR.RequestButton",
+                "usr": "c:@M@AlyciaITR@objc(cs)RequestButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AlyciaITR13RequestButtonC3str1p9setTarget6heightACSS_So16UIViewControllerCSb14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s9AlyciaITR13RequestButtonC3str1p9setTarget6heightACSS_So16UIViewControllerCSb12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adjustView",
+            "printedName": "adjustView(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR13RequestButtonC10adjustView5valuey14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$s9AlyciaITR13RequestButtonC10adjustView5valuey12CoreGraphics7CGFloatV_tF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestButton",
+                "printedName": "AlyciaITR.RequestButton",
+                "usr": "c:@M@AlyciaITR@objc(cs)RequestButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)RequestButton(im)initWithFrame:",
+            "mangledName": "$s9AlyciaITR13RequestButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlyciaITR@objc(cs)RequestButton",
+        "mangledName": "$s9AlyciaITR13RequestButtonC",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutItem",
+            "printedName": "LayoutItem",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ProxyType",
+                "printedName": "ProxyType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewProxy",
+                    "printedName": "Cartography.ViewProxy",
+                    "usr": "s:11Cartography9ViewProxyC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Cartography10LayoutItemP",
+            "mangledName": "$s11Cartography10LayoutItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Cartography",
+        "printedName": "Cartography",
+        "declKind": "Import",
+        "moduleName": "AlyciaITR"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserTableViewCell",
+        "printedName": "UserTableViewCell",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AlyciaITR@objc(cs)UserTableViewCell(im)awakeFromNib",
+            "mangledName": "$s9AlyciaITR17UserTableViewCellC12awakeFromNibyyF",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:reuseIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserTableViewCell",
+                "printedName": "AlyciaITR.UserTableViewCell",
+                "usr": "c:@M@AlyciaITR@objc(cs)UserTableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CellStyle",
+                "printedName": "UIKit.UITableViewCell.CellStyle",
+                "usr": "c:@E@UITableViewCellStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)UserTableViewCell(im)initWithStyle:reuseIdentifier:",
+            "mangledName": "$s9AlyciaITR17UserTableViewCellC5style15reuseIdentifierACSo07UITableeF5StyleV_SSSgtcfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "objc_name": "initWithStyle:reuseIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AlyciaITR.UserTableViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserTableViewCell",
+                    "printedName": "AlyciaITR.UserTableViewCell",
+                    "usr": "c:@M@AlyciaITR@objc(cs)UserTableViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlyciaITR@objc(cs)UserTableViewCell(im)initWithCoder:",
+            "mangledName": "$s9AlyciaITR17UserTableViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AlyciaITR",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(name:url:cellHeight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlyciaITR17UserTableViewCellC9configure4name3url10cellHeightySS_SS14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s9AlyciaITR17UserTableViewCellC9configure4name3url10cellHeightySS_SS12CoreGraphics7CGFloatVtF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlyciaITR@objc(cs)UserTableViewCell",
+        "mangledName": "$s9AlyciaITR17UserTableViewCellC",
+        "moduleName": "AlyciaITR",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableViewCell",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableViewCell",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutItem",
+            "printedName": "LayoutItem",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ProxyType",
+                "printedName": "ProxyType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewProxy",
+                    "printedName": "Cartography.ViewProxy",
+                    "usr": "s:11Cartography9ViewProxyC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Cartography10LayoutItemP",
+            "mangledName": "$s11Cartography10LayoutItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Int",
+        "printedName": "Int",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toGroupedFormat",
+            "printedName": "toGroupedFormat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Si9AlyciaITRE15toGroupedFormatSSyF",
+            "mangledName": "$sSi9AlyciaITRE15toGroupedFormatSSyF",
+            "moduleName": "AlyciaITR",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Si",
+        "mangledName": "$sSi",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedInteger",
+            "printedName": "SignedInteger",
+            "usr": "s:SZ",
+            "mangledName": "$sSZ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.Int.Words",
+                    "usr": "s:Si5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Int.SIMD2Storage",
+                    "usr": "s:Si12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Int.SIMD4Storage",
+                    "usr": "s:Si12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Int.SIMD8Storage",
+                    "usr": "s:Si12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Int.SIMD16Storage",
+                    "usr": "s:Si13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Int.SIMD32Storage",
+                    "usr": "s:Si13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Int.SIMD64Storage",
+                    "usr": "s:Si13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Curl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 419,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 25,
+      "value": "\"AcademyEngravedLetPlain\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
+      "length": 25,
+      "value": "\"GillSans-SemiBoldItalic\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1106,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1137,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1424,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 26,
+      "value": "\"AmericanTypewriter-Light\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1737,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1764,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/CardDetailTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 2478,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/Common\/Notifications.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 27,
+      "value": "\"RequestButtonNotification\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/Common\/Notifications.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 24,
+      "value": "\"SearchUserNotification\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/Common\/Notifications.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 23,
+      "value": "\"SampleAPINotification\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 230,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 230,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/TWD\/Rick.swift",
+      "kind": "IntegerLiteral",
+      "offset": 230,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/RequestButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/RequestButton.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 13,
+      "value": "\"AlyciaITR.RequestButton\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 8,
+      "value": "\"login:\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 29,
+      "value": "\"AmericanTypewriter-Semibold\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 539,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 29,
+      "value": "\"AmericanTypewriter-Semibold\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 12,
+      "value": "\"githubLogo\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 26,
+      "value": "\"AmericanTypewriter-Light\""
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1243,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/shimokura\/Documents\/develop\/iOS\/Library\/CocoaPods\/0927\/AlyciaITR\/AlyciaITR\/Classes\/UI\/UserTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1958,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
