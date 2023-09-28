@@ -90,6 +90,8 @@ class ViewController: UIViewController {
             print("rejected")
         case .unknown:
             print("unknown")
+        @unknown default:
+            print("unknown")
         }
         
         if let img = curl.getImage() {
@@ -99,6 +101,8 @@ class ViewController: UIViewController {
             imgView.layer.cornerRadius = 10
             imgView.clipsToBounds = true
             imgView.contentMode = .scaleAspectFit
+            imgView.isUserInteractionEnabled = true
+            imgView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(showAlycia)))
             view.addSubview(imgView)
             constrain(view, imgView) {
                 base, img in
@@ -120,6 +124,12 @@ class ViewController: UIViewController {
             stack.trailing == base.trailing - 10
             stack.height == 50
         }
+    }
+    
+    @objc func showAlycia() {
+        let vc = AlyciaViewController()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
     
     @objc func fromKingdom(notification: NSNotification) {

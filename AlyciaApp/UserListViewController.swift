@@ -15,12 +15,12 @@ class UserListViewController: UIViewController {
     let cellHeight: CGFloat = 64
     
     let curl = Curl()
-//    var result: UITextView?
     
     var data: [[String]] = [[String]]()
     
     lazy var closeBtn: UIButton = {
-        let btn = UIButton(type: .close)
+        let btn = UIButton()
+        btn.setImage(UIImage(named: "close"), for: .normal)
         btn.addTarget(self, action: #selector(closeView), for: .touchUpInside)
         view.addSubview(btn)
         return btn
@@ -30,6 +30,7 @@ class UserListViewController: UIViewController {
         let table = UITableView()
         table.backgroundColor = .clear
         table.register(UserTableViewCell.self, forCellReuseIdentifier: userListCellIdentifier)
+        table.separatorStyle = .none
         table.delegate = self
         table.dataSource = self
         view.addSubview(table)
@@ -38,14 +39,6 @@ class UserListViewController: UIViewController {
     
     init() {
         super.init(nibName: nil, bundle: nil)
-//        result = UITextView()
-//        result?.backgroundColor = .white
-//        result?.textColor = .darkGray
-//        view.addSubview(result!)
-//        constrain(view, result!) {
-//            base, text in
-//            text.edges == inset(base.edges, 50)
-//        }
     }
     
     required init?(coder: NSCoder) {

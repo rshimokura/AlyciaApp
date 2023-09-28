@@ -1,16 +1,20 @@
-<a href="https://learngpt.art"><img src="https://related.chat/github/header33.png" width="880"></a>
-
----
-
 <img src="https://related.chat/hud/001.gif" width="80"> <img src="https://related.chat/hud/002.gif" width="80"> <img src="https://related.chat/hud/003.gif" width="80"> <img src="https://related.chat/hud/004.gif" width="80"> <img src="https://related.chat/hud/005.gif" width="80"> <img src="https://related.chat/hud/006.gif" width="80"> <img src="https://related.chat/hud/007.gif" width="80"> <img src="https://related.chat/hud/008.gif" width="80"> <img src="https://related.chat/hud/009.gif" width="80"> <img src="https://related.chat/hud/010.gif" width="80"> <img src="https://related.chat/hud/011.gif" width="80"> <img src="https://related.chat/hud/011.png" width="80"> <img src="https://related.chat/hud/012.gif" width="80"> <img src="https://related.chat/hud/012.png" width="80"> <img src="https://related.chat/hud/013.gif" width="80"> <img src="https://related.chat/hud/013.png" width="80"> <img src="https://related.chat/hud/014.gif" width="80"> <img src="https://related.chat/hud/014.png" width="80"> <img src="https://related.chat/hud/015.gif" width="80"> <img src="https://related.chat/hud/015.png" width="80">
 
 ## WHAT'S NEW
 
+### Version: 13.8.0
+
+- Introduced an incredibly straightforward notification banner feature.
+
+### Version: 13.7.3
+
+- Fixed a bug where a thin line occasionally appeared on the right side of the HUD.
+
 ### Version: 13.7.2
 
-- The `showFailed` and `showError` methods can now handle `Error?` parameters as well.
-- SF Symbols can be displayed by defining it's name `ProgressHUD.show(symbol: "car.fill")`
-- Fix the `setupDelayTimer` method. Now `[weak self]` is used within the timer's closure to prevent potential retain cycles and avoid memory leaks.
+- Any SF Symbols can be displayed directly by defining its name `ProgressHUD.show(symbol: "car.fill")`
+- The `showFailed` and `showError` methods can now handle `Error?` parameters as well. In this case the `localizedDescription` will be displayed.
+- The `setupDelayTimer` method is fixed. Now `[weak self]` is used within the timer's closure to prevent potential retain cycles and avoid memory leaks.
 
 ### Version: 13.7.1
 
@@ -32,23 +36,44 @@
 
 ## OVERVIEW
 
-ProgressHUD is a lightweight and easy-to-use HUD for iOS.
+**ProgressHUD** is a convenient and intuitive HUD tool designed specifically for iOS. It enables seamless presentation of concise alerts or notifications to users of your app in a simple and non-disruptive way.
 
 ## INSTALLATION
 
 ### CocoaPods
 
-[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate the `ProgressHUD` into your Xcode project using CocoaPods, specify it in your `Podfile`:
+[CocoaPods](https://cocoapods.org) is a dependency manager for Swift and Objective-C Cocoa projects.
+
+To incorporate the **ProgressHUD** library into your Xcode project utilizing CocoaPods, please reference it within your `Podfile` as shown below:
 
 ```ruby
 pod 'ProgressHUD'
 ```
 
+### Swift Package Manager
+
+[Swift Package Manager](https://swift.org/package-manager) is a tool for managing the distribution of Swift code.
+
+To add **ProgressHUD** as a dependency to your project, follow these steps:
+
+1. Open your Swift project in Xcode.
+2. Navigate to `File` -> `Add Package Dependencies...`.
+3. Paste `https://github.com/relatedcode/ProgressHUD.git` into the search bar.
+4. Choose the version you want to use and click `Add Package`.
+
 ### Manually
 
-If you prefer not to use any of the dependency managers, you can integrate `ProgressHUD` into your project manually. Just copy the `ProgressHUD.swift` file in your Xcode project.
+If you prefer not to use any of the dependency managers, you can integrate **ProgressHUD** into your project manually. Just copy the `ProgressHUD.swift` file in your Xcode project.
 
 ## QUICK START
+
+```swift
+ProgressHUD.showBanner("Banner title", "Banner message to display.")
+```
+
+```swift
+ProgressHUD.hideBanner()
+```
 
 ```swift
 ProgressHUD.show("Some text...")

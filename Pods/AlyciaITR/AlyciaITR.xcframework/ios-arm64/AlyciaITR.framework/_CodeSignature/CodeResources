@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		50jLBMAJSentq9dVlESMZkpiU98=
+		XNqjfxXnIEmFH82yCJt4LZ1ndX4=
 		</data>
 		<key>Lion.png</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/AlyciaITR.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ax5pDUiNEkYW9E7AqZstVkGDxlI=
+		AVcrCEudXgdTudE5vhNeUwsOFKY=
 		</data>
 		<key>Modules/AlyciaITR.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		EMYIwJipC3sLeZc1v2+L4tkk8Dw=
+		QeLV9bAT6c0zH9wAVnOyZk7uGVM=
 		</data>
 		<key>Modules/AlyciaITR.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ax5pDUiNEkYW9E7AqZstVkGDxlI=
+		AVcrCEudXgdTudE5vhNeUwsOFKY=
 		</data>
 		<key>Modules/AlyciaITR.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HsK04O8HJ7DJz7jFdJTdEYItQag=
+		62NMUjI2cswZWWoCO+cgVTdJ3HM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,28 +99,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mprhOfnnHgEA3vNJeXhCICVvUMG42TCwHKHdmAB9fUM=
+			/GMDY/1+BiPUf3oLqx1RZiXMX3s/unDc3LfFyttgTx4=
 			</data>
 		</dict>
 		<key>Modules/AlyciaITR.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ry/+TVpzEY/t+H0jltEQpm11wZ6TTtg7mOSUr8BGyDU=
+			0ZMxkqPHQbQdZRuJQSei8ccCW02ao24ojv+VnBjw9OQ=
 			</data>
 		</dict>
 		<key>Modules/AlyciaITR.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mprhOfnnHgEA3vNJeXhCICVvUMG42TCwHKHdmAB9fUM=
+			/GMDY/1+BiPUf3oLqx1RZiXMX3s/unDc3LfFyttgTx4=
 			</data>
 		</dict>
 		<key>Modules/AlyciaITR.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7qSdimPcKjib58khXRUxawx/ytX9wyVj8PZX5iU5U70=
+			mSjJiZr4UmVpqugev1ff7iYutj7hmiS0iD5XYGfYj9U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

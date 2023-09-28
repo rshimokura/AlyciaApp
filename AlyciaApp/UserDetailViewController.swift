@@ -15,7 +15,8 @@ class UserDetailViewController: UIViewController {
     let curl = Curl()
     
     lazy var closeBtn: UIButton = {
-        let btn = UIButton(type: .close)
+        let btn = UIButton()
+        btn.setImage(UIImage(named: "close"), for: .normal)
         btn.addTarget(self, action: #selector(closeView), for: .touchUpInside)
         view.addSubview(btn)
         return btn
