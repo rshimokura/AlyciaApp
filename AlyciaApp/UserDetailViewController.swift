@@ -104,7 +104,7 @@ class UserDetailViewController: UIViewController {
         activityIndicator.startAnimating()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            self.requestAPI()
+            self.curl.getSampleData()
         }
     }
     
@@ -154,32 +154,6 @@ class UserDetailViewController: UIViewController {
                      self.statusMessage.isHidden = true
                 }
             }
-        }
-    }
-    
-    func requestAPI() {
-        if let url = URL(string: "https://api.myjson.online/v1/records/18af18de-e895-4c03-a30f-dfa23b9ae53c") {
-            var request = URLRequest(url: url)
-            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-            let session = URLSession.shared.dataTask(with: request) {
-                data, response, error in
-                
-                guard let data = data else {
-                    NotificationCenter.default.post(name: Notifications.SampleAPINotification, object: nil,
-                                                    userInfo: ["error": "Error Respond."])
-                    return
-                }
-                
-                do {
-                    let samleData: Curl.MyJsonData = try JSONDecoder().decode(Curl.MyJsonData.self, from: data)
-                    NotificationCenter.default.post(name: Notifications.SampleAPINotification, object: nil,
-                                                    userInfo: ["data": samleData])
-                } catch let e {
-                    NotificationCenter.default.post(name: Notifications.SampleAPINotification, object: nil,
-                                                    userInfo: ["error": e])
-                }
-            }
-            session.resume()
         }
     }
     
