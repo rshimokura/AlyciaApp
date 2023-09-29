@@ -14,256 +14,268 @@
 				8023B9B69C6FA7BDA7A8D0B67CC908DF /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				075AD9A5AFEB502C624567933F7B419D /* PBXTargetDependency */,
-				DF2DA0B90D2E84FC7DC8A1178B90D78A /* PBXTargetDependency */,
+				14AFF958DA5AB278B9741CC1E4EABDF3 /* PBXTargetDependency */,
+				41762EC4186D1BBA96AE38FA725DE48A /* PBXTargetDependency */,
 			);
 			name = AlyciaITR;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		00487DB696C5544A0DFB05574C1B8C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		01E830DFCB6D478AB3BC1CD43ED70BFE /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3A6DABB7E74BE68B7DC8E01A3FAF5 /* NVActivityIndicatorAnimationBallPulse.swift */; };
-		034F5AB1044B6C15D91080A1F8A3F34B /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C033E4C298428EB959D5BCF14E979 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
-		05C406B4C6C580EB22EB3DFA079439B3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D101E9C4B86F00A1107F7BA129C80DC4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
-		0ACCC8F64761E68F848BC71264FFC080 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B3A65B7C9616F76174593ECD267F6 /* Compound.swift */; };
-		0C40715B2E27DAA8CBB069A6D5363243 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8418B668310805FF9019D0CF6AB893 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		01E830DFCB6D478AB3BC1CD43ED70BFE /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BACE6191C56E1694E72444BA80043A /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		034F5AB1044B6C15D91080A1F8A3F34B /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61782B231F37F443E1E0E5AD67CB8DAE /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		05C406B4C6C580EB22EB3DFA079439B3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A2817D36D38AFC85BE2D1E84C5CB4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		0C40715B2E27DAA8CBB069A6D5363243 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E17775AF54D9F230C8BCE77C4254F /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
 		1130712C1FC62F44E82E27D42FC7F41E /* Pods-AlyciaApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1F76F2F259128C7BA55CA5ECC9AE20 /* Pods-AlyciaApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11A8E62762D11170E1A8BF5AB0227888 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697F9C2D55983B1D1A8F7069D4BAB7B /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
-		1BD030D912A115F23B82CD3DF0F9A87C /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFC8FF09915B3B37C05964F9D67347 /* Edges.swift */; };
-		21650ABEA291A7421CF664D576148679 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC729A41423E7F9AEC9FB1E794D4DCA /* ViewProxy.swift */; };
+		11A8E62762D11170E1A8BF5AB0227888 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086F2C6C45F3CA02CBBF212A3B4C10F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		14539A6B4F94E22FA1DFE4501DE74BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		1602F392A905177A2730E0602A9EEA83 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7B1D5B83D9317655A1CEBB267E97A /* Size.swift */; };
+		161819857383784DC83BF411A6A7B075 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7179865C3134367E110C3AA7E31E13F /* Edge.swift */; };
+		1B018091C80F13538AA20EDBC260F6AB /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D0D12E28228FC9CFEFEE9DB011053E /* LayoutItem.swift */; };
+		1DEC01F3B07D47458E53B662CB392B8A /* ProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F460C69B15F8B4DB836AA585691D2A9 /* ProgressHUD-dummy.m */; };
+		1ED34FC199AFE5E41AE8FA49174EA228 /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97E3C684C3EF587B99A821D96E3F /* LayoutProxy+TypeErasure.swift */; };
+		20E63026818BF6192E671167F5BF1D61 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB70651ADD774E50B65704DA6B6B1A /* Expression.swift */; };
+		2155708ACFD9096053AFF4C597AFA46F /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FFF8A103A64C17A334863F33273F2 /* ViewProxy.swift */; };
 		21D6B51A12C12C3F137C3CC3FDC18A6D /* Pods-AlyciaApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21323E8FBDC651218730E2D1A90CE6D8 /* Pods-AlyciaApp-dummy.m */; };
-		22530BC1C9073232A130C7D3E05C78A4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FCFD841AFF54880D42E0BDC427F3D4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
-		2705061702BC2563809296BA300DC549 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749171C369ED89D16B4A5C470DCBBB5B /* NVActivityIndicatorAnimationBlank.swift */; };
-		286037459C2A0F46189C475943B02778 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2592436247EBC88B4F9F8469C9AE0 /* ConstraintGroup.swift */; };
-		2B8FF548DCFF5AD35B8E45939256E423 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2CDFB340A27295CC978AC2917B3F8 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
-		2FE9CFEACAFB82543FAC2462FA9D66A4 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13655D233673BBE2D9FBFF199D0D2F01 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
-		3069AF1C87E9F00F6789DFE73FCDE5BA /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378379AD702F9428215EF77D6E722272 /* Coefficients.swift */; };
-		308734F92EB54837CD9B8A41D62C26CD /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7A2A388D2CDCE3A5E62367F067E967 /* NVActivityIndicatorShape.swift */; };
-		3551F84624CA8B2116469F66EA0E8BC9 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DBC07025E52506E1E27BA915D0A48A /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		22530BC1C9073232A130C7D3E05C78A4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6992748A31A03DAC9FF39DFEACFDBDE /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		2253F1EDD9DF602195417E2532F0B6C2 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F36B8FFAF7E70557929E25E5EB12DD /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25DE247A64CA7D06824332CC965C82AC /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19365781B601350246BF08FAEDDE8D4C /* Cartography-dummy.m */; };
+		2705061702BC2563809296BA300DC549 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7A924F1F21C4E18323696C88F5388 /* NVActivityIndicatorAnimationBlank.swift */; };
+		28E2C0A18114F4C170FC3E3820CF7E9A /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78189C22F2AE361546C892217248F0A /* ProgressHUD.swift */; };
+		2B8FF548DCFF5AD35B8E45939256E423 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF07B3D488AF2F2614EAA3776B0515 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		2F44D95BA5C887FB9A5CC03F547EEE1A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E086A176AE4AB6D06E2B1BD0A561AD /* View.swift */; };
+		2FE9CFEACAFB82543FAC2462FA9D66A4 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FAF232F69DF2625054957C91A1C1D6 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		308734F92EB54837CD9B8A41D62C26CD /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A770F58A3E29CB5ACCF9FE2831BF5363 /* NVActivityIndicatorShape.swift */; };
+		3551F84624CA8B2116469F66EA0E8BC9 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BC8835EB550A5926A636C4E48888A /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		362D7786F723E8214B18056B623A28D5 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B0B635A5D911F7C256D10CE60DB87 /* Distribute.swift */; };
 		36DB6CD9BCFF406E1E1DD4B51FEE8BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		382ABEC63A6185AB4B1F8636E1B4FAE6 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EE9A0079748E9E327AB2E47893960 /* NVActivityIndicatorAnimationBallRotate.swift */; };
-		3D0C293277B4DB361BC37D38190BFCD5 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8922F333D7C74F164235EE6FAC2CBE4D /* LayoutSupportProxy.swift */; };
-		40A2E2DDE76C3AA1AABA924FA9621DB0 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001804E5619BEE0E47D23E5253E7851 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
-		4908FFFFB3CD42A5C0224521B0BFDF1C /* ProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 438083531D6B163B7FBA893EDCCEAF3D /* ProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB9068FCABD31E9A2262423C1FF3C61 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6EB4055806EB66C7C5DBC3EBDA4F7 /* NVActivityIndicatorAnimationBallBeat.swift */; };
-		4B908579A75BC4935A5A0030FE1F7531 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5DEA7A0E791D1C383F54606C49074 /* LayoutSupport.swift */; };
-		4BF1FB66816998C6A16D6045190F355D /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0626364A1680C37DD68F9EFB15187F /* ProgressHUD.swift */; };
-		63B8D74C35CB9339D7A6F0D62F829B95 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324BF7E8AD08A76C9DFC604A20D95D4 /* Edge.swift */; };
-		6403E3481C83F922AF02EA9E497E8C93 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66EE0C465D97697EFF7389F02A7008 /* NVActivityIndicatorAnimationDelegate.swift */; };
-		65A074F41ECB8BEAF94052828A200802 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04680A73F7CCC614359CB26DDE0A20 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
-		67D3FEA48A8BA3DBC91B7E276807005F /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870AB69FBA3E4ACA6929F4361E89258 /* AutoresizingMaskLayoutProxy.swift */; };
-		6B765753C1A3C7333EB75928A9AC4BE6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6FC0FF53071C8CAECB6DE24706E4D /* View.swift */; };
-		6F5944A3FFB4759CE155408CEBC689A4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2F0C7F7990355DFE42FC9FE90C9679 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
-		799C44CABAA6AFEC59CDEA68DD1A9557 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400EE4C45A5085F99EEAEB2D543796AE /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
-		79F65ECD35754AE5B4AC8F80957ACD20 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F57327272CB8635392AB3EB2E6285 /* Cartography-dummy.m */; };
-		7F9A4C792883EB733491ADB1F458650D /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1466096664F20B64B7073FA353CB6E7 /* LayoutProxy+TypeErasure.swift */; };
+		382ABEC63A6185AB4B1F8636E1B4FAE6 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E7AC5E424C954EA6C825C993F35B88 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		3DE2636344317EF97DC23D5147115997 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1545F960CEC611D51353EDD17F46F2B /* ProgressView.swift */; };
+		40A2E2DDE76C3AA1AABA924FA9621DB0 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB90F5BDE07818AABF972358BF3241E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		40B6F274DF60B55283FE0622FA769D94 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0838356C378D9E58E3CDE024DB221A /* Coefficients.swift */; };
+		4AB9068FCABD31E9A2262423C1FF3C61 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714307BD7278D0B93EEB91F57B71C7 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		4E634F95952D8D10ED9176BE70402257 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14063B25A52754CA5DF52E6AF1BC0646 /* Context.swift */; };
+		53306AE99206D02B7FA39E3C128BF3C4 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F537CEB3A6C5DE6C64E75EA9EABFD08 /* Constraint.swift */; };
+		53C8BD92678EFC83C07B0E9BE62D6F2D /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41882E1073257E28F98A644A20E91BAB /* Compound.swift */; };
+		544B4130836B1847F5DE78F463AADB49 /* ProgressHUD+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFC5F4B23F361A91D10CCB39BCAE7D /* ProgressHUD+Animations.swift */; };
+		5531F3CD519143A341636CD7310ECFF7 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE90DD16C871B0C0649C6C20CEA3E7 /* Align.swift */; };
+		56724ECBC3A065DE5FF9BDFC14C0D8F7 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC36824EA8ECD7AD126EB9D474679D6D /* Dimension.swift */; };
+		5B769EC4689AB2A7F60BC4540C8B7461 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1DA03AA7FF5280794B02BBB3DDB1 /* Property.swift */; };
+		5D8FB25ECD15B5C6336CB947C5B6A00C /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C334EFAAB793113CCB0318BEBFA7EDD7 /* LayoutSupport.swift */; };
+		5EDF08F6BFB0F6E07F69F05BF638AEB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		6403E3481C83F922AF02EA9E497E8C93 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46295C66616E13EDDBEC51E764BAD23 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		648447AA5422DC1A127C1215B10CD88C /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E06F882D5EDA78AD81A03B2B79585 /* AutoresizingMaskLayoutProxy.swift */; };
+		65A074F41ECB8BEAF94052828A200802 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E798EF095C5D742A1E76CCCC426692FC /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		67F88BAD154620A53117AAC9CA618049 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C16E2B5785FAFDC69D65C47A6D4AF /* LayoutGuideProxy.swift */; };
+		6F5944A3FFB4759CE155408CEBC689A4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338F851CEF85BD1997F0F227EE7ECA6 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		75B81C56216EFF742D6A370487271A77 /* ProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6407B426D6C24840E88467D2D8C168 /* ProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		799C44CABAA6AFEC59CDEA68DD1A9557 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AAF8188C62AB63EB6D463580A9489 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		8044AB491478B6226409D09E3F4C4D31 /* ProgressHUD+Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80A90CEC8D5596096BF73C50FF922E /* ProgressHUD+Public.swift */; };
+		85ADE689F8902764813667C4F2F9FAF3 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD2D231EEE57D149F26AA0C8670ECC /* ConstraintGroup.swift */; };
+		88BC97C68B937C35162D84971AEB68AC /* ProgressHUD+AnimatedIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF920F0F5CF9BE191CD40C0FA6A6745 /* ProgressHUD+AnimatedIcon.swift */; };
 		88F97C8269EDCF8324890C8CDD7E160F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		8AA9ED0518D2840ECA78152726ECF3F0 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAF92D816335DEA65C61D76C510B204 /* NVActivityIndicatorView.swift */; };
-		8B2C8516D0AEFFF8E8577E5B18DE5B71 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D970A40AE2D24BCE647DACFC47423C6 /* Size.swift */; };
-		92958DD59B2C8EAA14487999AF650B34 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBDF0C85EAA57473043F346F9BA549 /* Align.swift */; };
-		93A7B1B80F996A74021BBE4BFFAA40ED /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EA36D21ADA52E864F7F897658A81AE /* NVActivityIndicatorView-dummy.m */; };
-		93CC358348D39367653952B679F00ABF /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1959D851AAD290722529401B99C453 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
-		99F9732AA924ACB4EEE7F9C8995340A3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E4CC917158969C04CB62FBE383CC8 /* NVActivityIndicatorAnimationBallScale.swift */; };
-		99FA3DA40C588245081664F4CA24B8D7 /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88FA182A87A779F11A8AD1C889B016C /* LayoutItem.swift */; };
-		9C84C338AED07CB5EE1390726005DCB9 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199AAFEC91220B9838BB36A3BF1CAE13 /* Context.swift */; };
-		9CC3364BFBF19FE10CD6D8722DA64FBD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84734BAF0DEF27668D41D9C7D365378B /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
-		9FA8087CDE5EAB588079C89063B7EE6E /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884626EAC96663016DD7C775938DEBA /* Constrain.swift */; };
-		A4AD3FF96A8E9A29BF188D85340FB808 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6776F0CDB534C8648D8764D59159B2 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
-		A51C4D1B32F07C893D5F1C445633D71A /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EB92A491C9C23477AEACBBD826B02 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
-		A5A6050C448AAD21273BF99FBFCAB663 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D7B69C3A09654F1F1128F943627781 /* LayoutProxy.swift */; };
-		AA471F024F2619C7E256AD240F590F5E /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A664C1DC36ED949E94D7F17631EA127 /* Dimension.swift */; };
-		AA9578B98EE22DA3FE1DF4CF81A2B11A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB55FAA501D7C192A14735C433BB476 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
-		AB7FDF4C42B8BABFA2209E35950B028E /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F7F89E25B0602CCA07C0035B94E4AB /* Priority.swift */; };
-		AF25DA133D02FE2BE4DCA72BB3FCB483 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D39BC376DFB2E2CCF4E7B53E9A72 /* NVActivityIndicatorAnimationLineScale.swift */; };
-		AF9ECF8CF25FB78A8EF2D9B1D4F48073 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D26836869B731DAB3CF6AFC781FC6 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
-		B0A51021E2DBE8443DF624AD74EDA9DB /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DAD0453F9C51C198FA07F014FF075 /* Point.swift */; };
-		B3FF8D0D5733647EE69AED63492C5EF4 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C5CDA7929FE83C4F6B6E9D3E9541B /* NVActivityIndicatorAnimationCubeTransition.swift */; };
-		BA99DA2A34CEE0EB21DBC63D117658F2 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5C2F715E24BE20699AECD6E48C447 /* NVActivityIndicatorAnimationPacman.swift */; };
-		BD54EF1E1C68D050C2A64C05D69925CD /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3ED43678944A129AC0B74022B4265 /* Property.swift */; };
-		BFCCA4B152081C18EF8A059ECFE0AED5 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF58230A7A54EED1DAFC4580C86D3B8 /* Expression.swift */; };
-		C4CC0C3C42BD781FC77686E25F94FE8E /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8226E519CB9926CF0D0A76C49B1A3 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
-		CD51E311A1975E8417AFF64195A30C79 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2F240DCB6F9B48832D4C43763A07D /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
-		CD9581FCAA664B751323EDB6195E608B /* ProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF51D88FD0B86727F2E5EB9959C02D7 /* ProgressHUD-dummy.m */; };
-		D2279EF73B612BDC28EB756B3FD429E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		D565DA1C3FEF59B4A571D5714BB424EC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130DD0A4DA881AD2CC136BAFD9E48236 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
-		D708B3CDC0314F7CEE769B81A14B62EF /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F378E8AA3F6103915AB6B28E09D27 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		8AA9ED0518D2840ECA78152726ECF3F0 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104AAE7321D1CFE73145C2CC70C61CFB /* NVActivityIndicatorView.swift */; };
+		903D119A050538D0BE21603C67C3FE97 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE137CC07C8DCB72EE905FBA21F4E93F /* Priority.swift */; };
+		9157541CC98A00110F3A2A0FC5CAD681 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30786422313FA8BB3BA54BC87B538FD /* LayoutSupportProxy.swift */; };
+		93A7B1B80F996A74021BBE4BFFAA40ED /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9471F58B43AFD7FE162E7551940CB33 /* NVActivityIndicatorView-dummy.m */; };
+		93CC358348D39367653952B679F00ABF /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28532C35C8429F4E2E2083C97DA17B29 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		99AB37C5065453865A88422FD7099175 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEC50E1FD7C06BF072BFE009725158 /* Extensions.swift */; };
+		99F9732AA924ACB4EEE7F9C8995340A3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC602F3A19265B340E12758B7F4AB83 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		9B0293EDA0B133C7772AB0FABC175F59 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C43D1A69BCB70FC27E72841394CCFA /* LayoutProxy.swift */; };
+		9CC3364BFBF19FE10CD6D8722DA64FBD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4AA031ED739C041E095EA911C5CF3F /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		9EEEAFA5FCCD99064DE3AD65181C7EA4 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF2E2890A23D43BA966D8D5A8C6308 /* Edges.swift */; };
+		A4AD3FF96A8E9A29BF188D85340FB808 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A92D6E79BFE46C9F483A9C1F86877 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		A51C4D1B32F07C893D5F1C445633D71A /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188AD676F266925511D0EFFB1C7C1C3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		AA9578B98EE22DA3FE1DF4CF81A2B11A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E984E6B34167AFF9B4538979BDC758 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		AF25DA133D02FE2BE4DCA72BB3FCB483 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6DE357A5D8B0B658C224DFBA81F58 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		AF9ECF8CF25FB78A8EF2D9B1D4F48073 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EF4713C5EA6D83E1E1BF4F0B46E083 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		B3FF8D0D5733647EE69AED63492C5EF4 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001FFE525A7EE46F2E96C0D0D5AF7AE /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		B666E676A9A0BBCD73FE0759C0CC0653 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605C8F231255CC099F74990F771D094 /* Constrain.swift */; };
+		B77F9408B057B367E1BA97B396DE618C /* ProgressHUD+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F89EB2DD89EBEC6FFB498AF9E0710CB /* ProgressHUD+Enums.swift */; };
+		BA99DA2A34CEE0EB21DBC63D117658F2 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01B0C9AF997DF80178602510282326 /* NVActivityIndicatorAnimationPacman.swift */; };
+		C076464A749B76C698F01A4AA4FF4797 /* ProgressHUD+Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB403C713B3A05101FD7959AAF1F16D /* ProgressHUD+Banner.swift */; };
+		C4CC0C3C42BD781FC77686E25F94FE8E /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DFA06F9EC2CC21CA6F6F20B8D5F56 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		C61782C28120ED5DE8D2241B6B90BC9F /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEBC66789FC691D3FAA004598E8B1B /* LayoutGuide.swift */; };
+		CD51E311A1975E8417AFF64195A30C79 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8060B2BFDBDF423F0201618542B3D /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		D565DA1C3FEF59B4A571D5714BB424EC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42389585D0188FB0E167AF790E84AC /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		D708B3CDC0314F7CEE769B81A14B62EF /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A90822502D4B0C9A46C30C164AB1C6 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
 		D9E6368D5B5FAD10EAD6EDC6B8585E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
-		DF5870F73F368FA8CB9F452B11731FF2 /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBDC3428C6028604657049E7E76358 /* LayoutGuide.swift */; };
-		E0DF7E6076D1C3AD1D6357F860815AEF /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFD8594B381C04C9509162938E18A0 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
-		E173A6CF4D86F2934F8349AFA11E29DE /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7136B38873F7E9AFC80FA6F4FF62B /* Distribute.swift */; };
-		E4429268BFDB3E0A7EDE808EF0FEA0C1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48E96CF143130F108777DB94C2E4BE /* NVActivityIndicatorAnimationSquareSpin.swift */; };
-		E4528254EAACF79B825F7A2AE923C739 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 413E33B27D9AD2DDEB7D261DCAF0B541 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4C9CD8CC97C68B887AA454378671805 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0FBF2368EA25546AE4E9050862C726 /* LayoutGuideProxy.swift */; };
-		E83D77B42C538C52F649B5F977863344 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4950E95B23424867586EDF2E3A046D /* Constraint.swift */; };
+		E0DF7E6076D1C3AD1D6357F860815AEF /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8701C590EB0B56969575218A91A648A8 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		E4429268BFDB3E0A7EDE808EF0FEA0C1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475FD3BB2A02BA9D6716A7FCF95D266 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
 		EC486D5A5025BF0F876EED3347055871 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
-		EDB2547B0D220772CF1A31249FBAFFBB /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F3B49523AB39EC81A82173BBE1FA5 /* NVActivityIndicatorAnimationOrbit.swift */; };
-		F4768891A56F1D5A9CB80C37A0E2F338 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38303140443DF57DF67183CD30ACB612 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5BAC0176FD41C6C4E633268D2241114 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49112E7D981E5F0801C0DFC57BB00A /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
-		FB167D38709877D3C5B296661074D581 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB499DDAFC2FBCF46AAD8F3D61B136 /* Extensions.swift */; };
+		ED10DE84AC2A6876897A86F12C748CBB /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF6C61D1A8AA9349564507440A74B /* Point.swift */; };
+		EDB2547B0D220772CF1A31249FBAFFBB /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF620A65D5DA0471C3C5E6E74F13627E /* NVActivityIndicatorAnimationOrbit.swift */; };
+		F4768891A56F1D5A9CB80C37A0E2F338 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 382042DC0CF39528CB86C5785CF084F8 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BAC0176FD41C6C4E633268D2241114 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BF97EEF6E3F614617255A98D431B3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09F42A90589632C9F731E44BF106B808 /* PBXContainerItemProxy */ = {
+		28C0168C43D8DFD89B1971CBAA0FBA6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8FBDBAAAB58D03FB5BB194A7F5231422;
 			remoteInfo = Cartography;
 		};
-		0A13EA0974216EB6057ECBEF874099BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FBDBAAAB58D03FB5BB194A7F5231422;
-			remoteInfo = Cartography;
-		};
-		576B96F055F40D76EEE5685ABADB83AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 022D0373DF61EE4E133BADB43CE7ED57;
-			remoteInfo = ProgressHUD;
-		};
-		83AD96DB293032CF5B4C0029F48CA0AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF8A82876C43F4DFD625D1823E680EAC;
-			remoteInfo = NVActivityIndicatorView;
-		};
-		90E523BAF7E40B5A2D6CC4FA54E9E5F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 022D0373DF61EE4E133BADB43CE7ED57;
-			remoteInfo = ProgressHUD;
-		};
-		B8A7FB7F06728DF24FD7871F89994B02 /* PBXContainerItemProxy */ = {
+		3C693CD3A089425DEC481033267B0684 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 827CF45CBB179A17D5A35C66EFBAF29B;
 			remoteInfo = AlyciaITR;
 		};
+		6B2E4500E5992074C15C0EA558635D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022D0373DF61EE4E133BADB43CE7ED57;
+			remoteInfo = ProgressHUD;
+		};
+		8644CAADDF87C2E28E0C2F64A3B19B2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022D0373DF61EE4E133BADB43CE7ED57;
+			remoteInfo = ProgressHUD;
+		};
+		A47D1BB439806F26BDB8C36600D3C4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8A82876C43F4DFD625D1823E680EAC;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		C30A5C15AD40F2FCBBFCD07F8269401B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBDBAAAB58D03FB5BB194A7F5231422;
+			remoteInfo = Cartography;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C1B35CCA68B2DDBD5332E1AC2A6CB6 /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
-		014E4CC917158969C04CB62FBE383CC8 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
-		073C033E4C298428EB959D5BCF14E979 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
-		0884626EAC96663016DD7C775938DEBA /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
-		0B6F57327272CB8635392AB3EB2E6285 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		03A7B1D5B83D9317655A1CEBB267E97A /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		0BC20DC4540CEFCEF957BB8E72901D6B /* NVActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
 		0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressHUD; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		113EB92A491C9C23477AEACBBD826B02 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
-		12D7B69C3A09654F1F1128F943627781 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
-		130DD0A4DA881AD2CC136BAFD9E48236 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
-		13655D233673BBE2D9FBFF199D0D2F01 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
-		199AAFEC91220B9838BB36A3BF1CAE13 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
-		1E1959D851AAD290722529401B99C453 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		0F89EB2DD89EBEC6FFB498AF9E0710CB /* ProgressHUD+Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProgressHUD+Enums.swift"; path = "ProgressHUD/Sources/ProgressHUD+Enums.swift"; sourceTree = "<group>"; };
+		104AAE7321D1CFE73145C2CC70C61CFB /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Sources/Base/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		11C43D1A69BCB70FC27E72841394CCFA /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		14063B25A52754CA5DF52E6AF1BC0646 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		1475FD3BB2A02BA9D6716A7FCF95D266 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		147DD660079590473E3569F088B7BC3A /* AlyciaITR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlyciaITR.release.xcconfig; sourceTree = "<group>"; };
+		19365781B601350246BF08FAEDDE8D4C /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		1D2F6A3DC5BF38214F19A8A933E86440 /* NVActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
+		1DF920F0F5CF9BE191CD40C0FA6A6745 /* ProgressHUD+AnimatedIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProgressHUD+AnimatedIcon.swift"; path = "ProgressHUD/Sources/ProgressHUD+AnimatedIcon.swift"; sourceTree = "<group>"; };
+		1F460C69B15F8B4DB836AA585691D2A9 /* ProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		21323E8FBDC651218730E2D1A90CE6D8 /* Pods-AlyciaApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlyciaApp-dummy.m"; sourceTree = "<group>"; };
-		27BE6F2F1A9D795002448B846890F66E /* Cartography.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.release.xcconfig; sourceTree = "<group>"; };
-		2FA7136B38873F7E9AFC80FA6F4FF62B /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		24FAF232F69DF2625054957C91A1C1D6 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		28532C35C8429F4E2E2083C97DA17B29 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		2902318107D2F19115487F6341860942 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		2CEEBC66789FC691D3FAA004598E8B1B /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
+		2D8393CF05715D7DD0F3B69C5508FCF2 /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		2EB90F5BDE07818AABF972358BF3241E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		3001FFE525A7EE46F2E96C0D0D5AF7AE /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
 		314C5D9EFB8050CE8EDC1DF13BD36655 /* Pods-AlyciaApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AlyciaApp"; path = Pods_AlyciaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3324BF7E8AD08A76C9DFC604A20D95D4 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
-		34FCFD841AFF54880D42E0BDC427F3D4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
-		362DAD0453F9C51C198FA07F014FF075 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
-		378379AD702F9428215EF77D6E722272 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
-		38303140443DF57DF67183CD30ACB612 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		3A664C1DC36ED949E94D7F17631EA127 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
-		400EE4C45A5085F99EEAEB2D543796AE /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
-		413E33B27D9AD2DDEB7D261DCAF0B541 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		320E06F882D5EDA78AD81A03B2B79585 /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
+		33DB97E3C684C3EF587B99A821D96E3F /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
+		34BACE6191C56E1694E72444BA80043A /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		364E6F777511513BD76D2BA11FF8747E /* Cartography.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.release.xcconfig; sourceTree = "<group>"; };
+		382042DC0CF39528CB86C5785CF084F8 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		3A80A90CEC8D5596096BF73C50FF922E /* ProgressHUD+Public.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProgressHUD+Public.swift"; path = "ProgressHUD/Sources/ProgressHUD+Public.swift"; sourceTree = "<group>"; };
+		3C3E17775AF54D9F230C8BCE77C4254F /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		3E58C14CC74F1E5E731D2303FBA7BB35 /* ProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		41882E1073257E28F98A644A20E91BAB /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
 		422D752782548EC5DD0DA079745FB10E /* Pods-AlyciaApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlyciaApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		438083531D6B163B7FBA893EDCCEAF3D /* ProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		463C16E2B5785FAFDC69D65C47A6D4AF /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
+		4A0838356C378D9E58E3CDE024DB221A /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		4AB403C713B3A05101FD7959AAF1F16D /* ProgressHUD+Banner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProgressHUD+Banner.swift"; path = "ProgressHUD/Sources/ProgressHUD+Banner.swift"; sourceTree = "<group>"; };
 		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4B3106B73C7D8206E849E5543F3E0B4F /* Pods-AlyciaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlyciaApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4D4950E95B23424867586EDF2E3A046D /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
-		534D26836869B731DAB3CF6AFC781FC6 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
-		54EA36D21ADA52E864F7F897658A81AE /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		582DBB4A04CFA3F65342C889F85741AE /* NVActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
-		5AE8226E519CB9926CF0D0A76C49B1A3 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
-		5CB55FAA501D7C192A14735C433BB476 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
-		5CF58230A7A54EED1DAFC4580C86D3B8 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
-		5D970A40AE2D24BCE647DACFC47423C6 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		4C654CBD779E57ED47F82099D2692A14 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		4C753C4D13F5303CD235BCE7C16D4A5D /* ProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		50C7A924F1F21C4E18323696C88F5388 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
 		5DEDB65EFD40099ADD720C7A97510240 /* Cartography */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E709E4EFC961750214B7385408A5487 /* ProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressHUD.modulemap; sourceTree = "<group>"; };
+		5E1F086F859467AE0C8ECE6C8060D052 /* AlyciaITR-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AlyciaITR-xcframeworks.sh"; sourceTree = "<group>"; };
+		6086F2C6C45F3CA02CBBF212A3B4C10F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
 		60882F8FB74B43508AC232B2C29AE591 /* Pods-AlyciaApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlyciaApp-frameworks.sh"; sourceTree = "<group>"; };
 		60DAA129997176A481A727DF69950659 /* Pods-AlyciaApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlyciaApp.modulemap"; sourceTree = "<group>"; };
-		6870AB69FBA3E4ACA6929F4361E89258 /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
-		747939DFE8EC302524AD418CB4D1BAA8 /* Cartography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.debug.xcconfig; sourceTree = "<group>"; };
-		749171C369ED89D16B4A5C470DCBBB5B /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
-		77BFD8594B381C04C9509162938E18A0 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
-		79DC4126EEFDA6B742F7DC6CA18B2023 /* Cartography-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cartography-Info.plist"; sourceTree = "<group>"; };
-		7B49112E7D981E5F0801C0DFC57BB00A /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
-		7B6776F0CDB534C8648D8764D59159B2 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
-		7CE5C2F715E24BE20699AECD6E48C447 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
-		81FBDF0C85EAA57473043F346F9BA549 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
-		84734BAF0DEF27668D41D9C7D365378B /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		61782B231F37F443E1E0E5AD67CB8DAE /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		6191C1CFE84EEFEAD78196AE7F27C34D /* AlyciaITR.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AlyciaITR.xcframework; sourceTree = "<group>"; };
+		64F36B8FFAF7E70557929E25E5EB12DD /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		65DB70651ADD774E50B65704DA6B6B1A /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		68E8060B2BFDBDF423F0201618542B3D /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		6F537CEB3A6C5DE6C64E75EA9EABFD08 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		702B0B635A5D911F7C256D10CE60DB87 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		7188AD676F266925511D0EFFB1C7C1C3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		72E7AC5E424C954EA6C825C993F35B88 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		72FF2E2890A23D43BA966D8D5A8C6308 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		765A92D6E79BFE46C9F483A9C1F86877 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		7D6BF97EEF6E3F614617255A98D431B3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		7E4AA031ED739C041E095EA911C5CF3F /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		7E8BC8835EB550A5926A636C4E48888A /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
+		82D0D12E28228FC9CFEFEE9DB011053E /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
+		8338F851CEF85BD1997F0F227EE7ECA6 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
 		851A375FC4FC943B97FDFB41D5045F67 /* Pods-AlyciaApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlyciaApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		85ACBB20BE9B98B7AF2EBB2DAC0D9FDF /* ProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		8922F333D7C74F164235EE6FAC2CBE4D /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
-		89E4F8308352313014F513BF8068D98D /* AlyciaITR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlyciaITR.release.xcconfig; sourceTree = "<group>"; };
-		8BD6EB4055806EB66C7C5DBC3EBDA4F7 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		86E6DE357A5D8B0B658C224DFBA81F58 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		8701C590EB0B56969575218A91A648A8 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		87EF4713C5EA6D83E1E1BF4F0B46E083 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		8ACEF6C61D1A8AA9349564507440A74B /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
 		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F04680A73F7CCC614359CB26DDE0A20 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
-		8F295DDB32AEA5EB41DDA107F9A23541 /* NVActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
-		995F378E8AA3F6103915AB6B28E09D27 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
-		9B8418B668310805FF9019D0CF6AB893 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		8D32523C1E2517B7E795A00C130D9D2F /* ProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressHUD.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD74D9AB3EDA8112D86BBDC6D382F10 /* AlyciaITR.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AlyciaITR.xcframework; sourceTree = "<group>"; };
 		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A1466096664F20B64B7073FA353CB6E7 /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
+		A0B00E184C478FCBF31E62E247D65824 /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		A1545F960CEC611D51353EDD17F46F2B /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = ProgressHUD/Sources/ProgressView.swift; sourceTree = "<group>"; };
 		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4AD0C1B704DFF5FAC019942EA5B5226 /* ProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		A3FD2D231EEE57D149F26AA0C8670ECC /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		A4DF3621CE4D7674616C6A96CF19726C /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cartography.modulemap; sourceTree = "<group>"; };
+		A770F58A3E29CB5ACCF9FE2831BF5363 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Sources/Base/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		A9471F58B43AFD7FE162E7551940CB33 /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		A9B876ABE1255FB92D3B0DE5A34BC4E1 /* Cartography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.debug.xcconfig; sourceTree = "<group>"; };
 		AA1F76F2F259128C7BA55CA5ECC9AE20 /* Pods-AlyciaApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlyciaApp-umbrella.h"; sourceTree = "<group>"; };
-		ABDBDC3428C6028604657049E7E76358 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
-		ADA5DEA7A0E791D1C383F54606C49074 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
-		AE0FBF2368EA25546AE4E9050862C726 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
-		AE928B67D9688F230917E25496A49A09 /* ProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		AFAB499DDAFC2FBCF46AAD8F3D61B136 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
-		AFC2F240DCB6F9B48832D4C43763A07D /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
-		B697F9C2D55983B1D1A8F7069D4BAB7B /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
-		B88FA182A87A779F11A8AD1C889B016C /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
-		BAF6FC0FF53071C8CAECB6DE24706E4D /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
-		BBF5EA7C12D1E303D7D83293EDC11FBB /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
-		BFA2592436247EBC88B4F9F8469C9AE0 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
-		C22EB73601C5F43B2E0931656D1954AE /* AlyciaITR-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AlyciaITR-xcframeworks.sh"; sourceTree = "<group>"; };
-		C471CBDA7EB744B8D562F74C19ED9E44 /* AlyciaITR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlyciaITR.debug.xcconfig; sourceTree = "<group>"; };
-		C50B3A65B7C9616F76174593ECD267F6 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
-		C5F7F89E25B0602CCA07C0035B94E4AB /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
-		C8BFC8FF09915B3B37C05964F9D67347 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
-		C9EE0836326EAEFEF9070174E0328E82 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
-		CA2F0C7F7990355DFE42FC9FE90C9679 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
-		CD7A2A388D2CDCE3A5E62367F067E967 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Sources/Base/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
-		CF0626364A1680C37DD68F9EFB15187F /* ProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressHUD.swift; path = ProgressHUD/Sources/ProgressHUD.swift; sourceTree = "<group>"; };
-		D001804E5619BEE0E47D23E5253E7851 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
-		D01C5CDA7929FE83C4F6B6E9D3E9541B /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
-		D101E9C4B86F00A1107F7BA129C80DC4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
-		D62EE9A0079748E9E327AB2E47893960 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
-		D9F2CDFB340A27295CC978AC2917B3F8 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
-		DD48E96CF143130F108777DB94C2E4BE /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
-		DD9F3B49523AB39EC81A82173BBE1FA5 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
-		E170CE7290B80C20955665ACB00DAC89 /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		E6DBC07025E52506E1E27BA915D0A48A /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
-		E8F3ED43678944A129AC0B74022B4265 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		AADE90DD16C871B0C0649C6C20CEA3E7 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		AC36824EA8ECD7AD126EB9D474679D6D /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		AF620A65D5DA0471C3C5E6E74F13627E /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		B30786422313FA8BB3BA54BC87B538FD /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
+		B3E984E6B34167AFF9B4538979BDC758 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		B3FEC50E1FD7C06BF072BFE009725158 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		B605C8F231255CC099F74990F771D094 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		B998CA21EF76130FE4FCF17053E47129 /* Cartography-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cartography-Info.plist"; sourceTree = "<group>"; };
+		BC110F1EBB3EFA3D4B8469B02ACEDDC7 /* AlyciaITR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlyciaITR.debug.xcconfig; sourceTree = "<group>"; };
+		C334EFAAB793113CCB0318BEBFA7EDD7 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		C46295C66616E13EDDBEC51E764BAD23 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Sources/Base/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		D0E086A176AE4AB6D06E2B1BD0A561AD /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		D6A90822502D4B0C9A46C30C164AB1C6 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		D7179865C3134367E110C3AA7E31E13F /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		D78189C22F2AE361546C892217248F0A /* ProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressHUD.swift; path = ProgressHUD/Sources/ProgressHUD.swift; sourceTree = "<group>"; };
+		D7F78B255CD01C169BB58C7E209366EC /* ProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		DB42389585D0188FB0E167AF790E84AC /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		DE137CC07C8DCB72EE905FBA21F4E93F /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		E6EE1DA03AA7FF5280794B02BBB3DDB1 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		E798EF095C5D742A1E76CCCC426692FC /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		E7EF07B3D488AF2F2614EAA3776B0515 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		EBC602F3A19265B340E12758B7F4AB83 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
 		EC267585B998EAEA5CC22AA7D12C6000 /* Pods-AlyciaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlyciaApp.release.xcconfig"; sourceTree = "<group>"; };
-		EEF51D88FD0B86727F2E5EB9959C02D7 /* ProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		F585D39BC376DFB2E2CCF4E7B53E9A72 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
-		F5E7392DD331A4CEA6D721ECFCE09164 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		EC6DFA06F9EC2CC21CA6F6F20B8D5F56 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		EDCF32796FF1B7ADFD8B1CFB32C7F102 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		EE01B0C9AF997DF80178602510282326 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		EE6407B426D6C24840E88467D2D8C168 /* ProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		EFBFC5F4B23F361A91D10CCB39BCAE7D /* ProgressHUD+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProgressHUD+Animations.swift"; path = "ProgressHUD/Sources/ProgressHUD+Animations.swift"; sourceTree = "<group>"; };
+		F49AAF8188C62AB63EB6D463580A9489 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		F5714307BD7278D0B93EEB91F57B71C7 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
 		F66EA9187E751FFADC92843B43D0510C /* Pods-AlyciaApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlyciaApp-Info.plist"; sourceTree = "<group>"; };
-		FA41ADF27C3268D887A6DD6BC32B846D /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cartography.modulemap; sourceTree = "<group>"; };
-		FB66EE0C465D97697EFF7389F02A7008 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Sources/Base/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
-		FDAF92D816335DEA65C61D76C510B204 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Sources/Base/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
-		FDC3A6DABB7E74BE68B7DC8E01A3FAF5 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
-		FDC729A41423E7F9AEC9FB1E794D4DCA /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
+		F6992748A31A03DAC9FF39DFEACFDBDE /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		F77FFF8A103A64C17A334863F33273F2 /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
+		FA9A2817D36D38AFC85BE2D1E84C5CB4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18B2A1B1D4318870C8AFBD35DDF2D627 /* Frameworks */ = {
+		1DA32D2A4F506F51E7A1E13FA2D0A54A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2279EF73B612BDC28EB756B3FD429E8 /* Foundation.framework in Frameworks */,
+				5EDF08F6BFB0F6E07F69F05BF638AEB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,19 +289,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DD1923569D6E72859B29E184C7F2B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14539A6B4F94E22FA1DFE4501DE74BBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE94974BF18AA2568EAF774E89DEC22B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				36DB6CD9BCFF406E1E1DD4B51FEE8BF2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0902EFC4CAC9794FF666EB2C661A673 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00487DB696C5544A0DFB05574C1B8C18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +316,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		051F0AC69C80A5EE8B9117645111C13A /* ProgressHUD */ = {
+		0F5C286B0B495B9C7372DFAD5259782A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF0626364A1680C37DD68F9EFB15187F /* ProgressHUD.swift */,
-				19BC59EF72BB53377C68DF943BB80F62 /* Support Files */,
+				5E1F086F859467AE0C8ECE6C8060D052 /* AlyciaITR-xcframeworks.sh */,
+				BC110F1EBB3EFA3D4B8469B02ACEDDC7 /* AlyciaITR.debug.xcconfig */,
+				147DD660079590473E3569F088B7BC3A /* AlyciaITR.release.xcconfig */,
 			);
-			name = ProgressHUD;
-			path = ProgressHUD;
+			name = "Support Files";
+			path = "../Target Support Files/AlyciaITR";
 			sourceTree = "<group>";
 		};
 		10F1D86D49762C7BAFC1462B8A2F96F9 /* Products */ = {
@@ -325,143 +338,97 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19BC59EF72BB53377C68DF943BB80F62 /* Support Files */ = {
+		184F761F790BAD0B0CAFB23463500D13 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E709E4EFC961750214B7385408A5487 /* ProgressHUD.modulemap */,
-				EEF51D88FD0B86727F2E5EB9959C02D7 /* ProgressHUD-dummy.m */,
-				AE928B67D9688F230917E25496A49A09 /* ProgressHUD-Info.plist */,
-				E170CE7290B80C20955665ACB00DAC89 /* ProgressHUD-prefix.pch */,
-				438083531D6B163B7FBA893EDCCEAF3D /* ProgressHUD-umbrella.h */,
-				85ACBB20BE9B98B7AF2EBB2DAC0D9FDF /* ProgressHUD.debug.xcconfig */,
-				A4AD0C1B704DFF5FAC019942EA5B5226 /* ProgressHUD.release.xcconfig */,
+				8D32523C1E2517B7E795A00C130D9D2F /* ProgressHUD.modulemap */,
+				1F460C69B15F8B4DB836AA585691D2A9 /* ProgressHUD-dummy.m */,
+				4C753C4D13F5303CD235BCE7C16D4A5D /* ProgressHUD-Info.plist */,
+				2D8393CF05715D7DD0F3B69C5508FCF2 /* ProgressHUD-prefix.pch */,
+				EE6407B426D6C24840E88467D2D8C168 /* ProgressHUD-umbrella.h */,
+				D7F78B255CD01C169BB58C7E209366EC /* ProgressHUD.debug.xcconfig */,
+				3E58C14CC74F1E5E731D2303FBA7BB35 /* ProgressHUD.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ProgressHUD";
 			sourceTree = "<group>";
 		};
-		2A478A69DD20C7BDF18591F9F293C2E6 /* Cartography */ = {
+		1A46FD1F77B6DA4C49A5C25A842BE588 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				81FBDF0C85EAA57473043F346F9BA549 /* Align.swift */,
-				6870AB69FBA3E4ACA6929F4361E89258 /* AutoresizingMaskLayoutProxy.swift */,
-				378379AD702F9428215EF77D6E722272 /* Coefficients.swift */,
-				C50B3A65B7C9616F76174593ECD267F6 /* Compound.swift */,
-				0884626EAC96663016DD7C775938DEBA /* Constrain.swift */,
-				4D4950E95B23424867586EDF2E3A046D /* Constraint.swift */,
-				BFA2592436247EBC88B4F9F8469C9AE0 /* ConstraintGroup.swift */,
-				199AAFEC91220B9838BB36A3BF1CAE13 /* Context.swift */,
-				3A664C1DC36ED949E94D7F17631EA127 /* Dimension.swift */,
-				2FA7136B38873F7E9AFC80FA6F4FF62B /* Distribute.swift */,
-				3324BF7E8AD08A76C9DFC604A20D95D4 /* Edge.swift */,
-				C8BFC8FF09915B3B37C05964F9D67347 /* Edges.swift */,
-				5CF58230A7A54EED1DAFC4580C86D3B8 /* Expression.swift */,
-				AFAB499DDAFC2FBCF46AAD8F3D61B136 /* Extensions.swift */,
-				ABDBDC3428C6028604657049E7E76358 /* LayoutGuide.swift */,
-				AE0FBF2368EA25546AE4E9050862C726 /* LayoutGuideProxy.swift */,
-				B88FA182A87A779F11A8AD1C889B016C /* LayoutItem.swift */,
-				12D7B69C3A09654F1F1128F943627781 /* LayoutProxy.swift */,
-				A1466096664F20B64B7073FA353CB6E7 /* LayoutProxy+TypeErasure.swift */,
-				ADA5DEA7A0E791D1C383F54606C49074 /* LayoutSupport.swift */,
-				8922F333D7C74F164235EE6FAC2CBE4D /* LayoutSupportProxy.swift */,
-				362DAD0453F9C51C198FA07F014FF075 /* Point.swift */,
-				C5F7F89E25B0602CCA07C0035B94E4AB /* Priority.swift */,
-				E8F3ED43678944A129AC0B74022B4265 /* Property.swift */,
-				5D970A40AE2D24BCE647DACFC47423C6 /* Size.swift */,
-				BAF6FC0FF53071C8CAECB6DE24706E4D /* View.swift */,
-				FDC729A41423E7F9AEC9FB1E794D4DCA /* ViewProxy.swift */,
-				EC8576E3B20AF5DDA34C2858981BB78B /* Support Files */,
-			);
-			name = Cartography;
-			path = Cartography;
-			sourceTree = "<group>";
-		};
-		40921B0372FEEF540528AD68496129DA /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				073C033E4C298428EB959D5BCF14E979 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
-				8BD6EB4055806EB66C7C5DBC3EBDA4F7 /* NVActivityIndicatorAnimationBallBeat.swift */,
-				9B8418B668310805FF9019D0CF6AB893 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
-				7B49112E7D981E5F0801C0DFC57BB00A /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
-				995F378E8AA3F6103915AB6B28E09D27 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
-				E6DBC07025E52506E1E27BA915D0A48A /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
-				AFC2F240DCB6F9B48832D4C43763A07D /* NVActivityIndicatorAnimationBallGridBeat.swift */,
-				13655D233673BBE2D9FBFF199D0D2F01 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
-				FDC3A6DABB7E74BE68B7DC8E01A3FAF5 /* NVActivityIndicatorAnimationBallPulse.swift */,
-				84734BAF0DEF27668D41D9C7D365378B /* NVActivityIndicatorAnimationBallPulseRise.swift */,
-				D9F2CDFB340A27295CC978AC2917B3F8 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
-				D62EE9A0079748E9E327AB2E47893960 /* NVActivityIndicatorAnimationBallRotate.swift */,
-				77BFD8594B381C04C9509162938E18A0 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
-				014E4CC917158969C04CB62FBE383CC8 /* NVActivityIndicatorAnimationBallScale.swift */,
-				34FCFD841AFF54880D42E0BDC427F3D4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
-				D101E9C4B86F00A1107F7BA129C80DC4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
-				D001804E5619BEE0E47D23E5253E7851 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
-				B697F9C2D55983B1D1A8F7069D4BAB7B /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
-				7B6776F0CDB534C8648D8764D59159B2 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
-				5AE8226E519CB9926CF0D0A76C49B1A3 /* NVActivityIndicatorAnimationBallZigZag.swift */,
-				534D26836869B731DAB3CF6AFC781FC6 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
-				749171C369ED89D16B4A5C470DCBBB5B /* NVActivityIndicatorAnimationBlank.swift */,
-				8F04680A73F7CCC614359CB26DDE0A20 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
-				D01C5CDA7929FE83C4F6B6E9D3E9541B /* NVActivityIndicatorAnimationCubeTransition.swift */,
-				FB66EE0C465D97697EFF7389F02A7008 /* NVActivityIndicatorAnimationDelegate.swift */,
-				F585D39BC376DFB2E2CCF4E7B53E9A72 /* NVActivityIndicatorAnimationLineScale.swift */,
-				400EE4C45A5085F99EEAEB2D543796AE /* NVActivityIndicatorAnimationLineScaleParty.swift */,
-				130DD0A4DA881AD2CC136BAFD9E48236 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
-				1E1959D851AAD290722529401B99C453 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
-				5CB55FAA501D7C192A14735C433BB476 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
-				DD9F3B49523AB39EC81A82173BBE1FA5 /* NVActivityIndicatorAnimationOrbit.swift */,
-				7CE5C2F715E24BE20699AECD6E48C447 /* NVActivityIndicatorAnimationPacman.swift */,
-				CA2F0C7F7990355DFE42FC9FE90C9679 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
-				DD48E96CF143130F108777DB94C2E4BE /* NVActivityIndicatorAnimationSquareSpin.swift */,
-				113EB92A491C9C23477AEACBBD826B02 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
-				CD7A2A388D2CDCE3A5E62367F067E967 /* NVActivityIndicatorShape.swift */,
-				FDAF92D816335DEA65C61D76C510B204 /* NVActivityIndicatorView.swift */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		4AAEDEC5F34577ECAF52EA2331ADE91B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C9EE0836326EAEFEF9070174E0328E82 /* NVActivityIndicatorView.modulemap */,
-				54EA36D21ADA52E864F7F897658A81AE /* NVActivityIndicatorView-dummy.m */,
-				00C1B35CCA68B2DDBD5332E1AC2A6CB6 /* NVActivityIndicatorView-Info.plist */,
-				F5E7392DD331A4CEA6D721ECFCE09164 /* NVActivityIndicatorView-prefix.pch */,
-				38303140443DF57DF67183CD30ACB612 /* NVActivityIndicatorView-umbrella.h */,
-				8F295DDB32AEA5EB41DDA107F9A23541 /* NVActivityIndicatorView.debug.xcconfig */,
-				582DBB4A04CFA3F65342C889F85741AE /* NVActivityIndicatorView.release.xcconfig */,
+				4C654CBD779E57ED47F82099D2692A14 /* NVActivityIndicatorView.modulemap */,
+				A9471F58B43AFD7FE162E7551940CB33 /* NVActivityIndicatorView-dummy.m */,
+				A0B00E184C478FCBF31E62E247D65824 /* NVActivityIndicatorView-Info.plist */,
+				2902318107D2F19115487F6341860942 /* NVActivityIndicatorView-prefix.pch */,
+				382042DC0CF39528CB86C5785CF084F8 /* NVActivityIndicatorView-umbrella.h */,
+				0BC20DC4540CEFCEF957BB8E72901D6B /* NVActivityIndicatorView.debug.xcconfig */,
+				1D2F6A3DC5BF38214F19A8A933E86440 /* NVActivityIndicatorView.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/NVActivityIndicatorView";
 			sourceTree = "<group>";
 		};
-		5A77E7CE3ECFD8BDB4D8D184E5E4EFE9 /* Frameworks */ = {
+		645B2BFE1F0154374D4BA5BCB58B0903 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9DD74D9AB3EDA8112D86BBDC6D382F10 /* AlyciaITR.xcframework */,
+				EDEA1BB504C11198F6C3AF97E8A9DB5C /* AlyciaITR */,
+				DC8742396AF88E58FAB8EB1F63CAB53B /* Cartography */,
+				F5C6DB8C804D100DE51C566CBE6300E3 /* NVActivityIndicatorView */,
+				B1B716C6A9014D08BED1D6E4DB880EEB /* ProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94398781754FE1A9DA66D97E2A2AB6E7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				61782B231F37F443E1E0E5AD67CB8DAE /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				F5714307BD7278D0B93EEB91F57B71C7 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				3C3E17775AF54D9F230C8BCE77C4254F /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				7D6BF97EEF6E3F614617255A98D431B3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				D6A90822502D4B0C9A46C30C164AB1C6 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				7E8BC8835EB550A5926A636C4E48888A /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
+				68E8060B2BFDBDF423F0201618542B3D /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				24FAF232F69DF2625054957C91A1C1D6 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				34BACE6191C56E1694E72444BA80043A /* NVActivityIndicatorAnimationBallPulse.swift */,
+				7E4AA031ED739C041E095EA911C5CF3F /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				E7EF07B3D488AF2F2614EAA3776B0515 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				72E7AC5E424C954EA6C825C993F35B88 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				8701C590EB0B56969575218A91A648A8 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				EBC602F3A19265B340E12758B7F4AB83 /* NVActivityIndicatorAnimationBallScale.swift */,
+				F6992748A31A03DAC9FF39DFEACFDBDE /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				FA9A2817D36D38AFC85BE2D1E84C5CB4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				2EB90F5BDE07818AABF972358BF3241E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				6086F2C6C45F3CA02CBBF212A3B4C10F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				765A92D6E79BFE46C9F483A9C1F86877 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				EC6DFA06F9EC2CC21CA6F6F20B8D5F56 /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				87EF4713C5EA6D83E1E1BF4F0B46E083 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				50C7A924F1F21C4E18323696C88F5388 /* NVActivityIndicatorAnimationBlank.swift */,
+				E798EF095C5D742A1E76CCCC426692FC /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				3001FFE525A7EE46F2E96C0D0D5AF7AE /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				C46295C66616E13EDDBEC51E764BAD23 /* NVActivityIndicatorAnimationDelegate.swift */,
+				86E6DE357A5D8B0B658C224DFBA81F58 /* NVActivityIndicatorAnimationLineScale.swift */,
+				F49AAF8188C62AB63EB6D463580A9489 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				DB42389585D0188FB0E167AF790E84AC /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				28532C35C8429F4E2E2083C97DA17B29 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				B3E984E6B34167AFF9B4538979BDC758 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				AF620A65D5DA0471C3C5E6E74F13627E /* NVActivityIndicatorAnimationOrbit.swift */,
+				EE01B0C9AF997DF80178602510282326 /* NVActivityIndicatorAnimationPacman.swift */,
+				8338F851CEF85BD1997F0F227EE7ECA6 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				1475FD3BB2A02BA9D6716A7FCF95D266 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				7188AD676F266925511D0EFFB1C7C1C3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				A770F58A3E29CB5ACCF9FE2831BF5363 /* NVActivityIndicatorShape.swift */,
+				104AAE7321D1CFE73145C2CC70C61CFB /* NVActivityIndicatorView.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9734C199BCCAC49A5FD585DE93056ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6191C1CFE84EEFEAD78196AE7F27C34D /* AlyciaITR.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		64E02DFFED1C764A0AC024EA952EE663 /* AlyciaITR */ = {
-			isa = PBXGroup;
-			children = (
-				5A77E7CE3ECFD8BDB4D8D184E5E4EFE9 /* Frameworks */,
-				A37E5E8A12CEA56E817E9ADC4FC35CAB /* Support Files */,
-			);
-			name = AlyciaITR;
-			path = AlyciaITR;
-			sourceTree = "<group>";
-		};
-		A37E5E8A12CEA56E817E9ADC4FC35CAB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C22EB73601C5F43B2E0931656D1954AE /* AlyciaITR-xcframeworks.sh */,
-				C471CBDA7EB744B8D562F74C19ED9E44 /* AlyciaITR.debug.xcconfig */,
-				89E4F8308352313014F513BF8068D98D /* AlyciaITR.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AlyciaITR";
 			sourceTree = "<group>";
 		};
 		AD3356D1205BED408972042F795D9F82 /* Targets Support Files */ = {
@@ -472,15 +439,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CE99467830C0F5CC8B1ADB3607EBF04E /* Pods */ = {
+		B1B716C6A9014D08BED1D6E4DB880EEB /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				64E02DFFED1C764A0AC024EA952EE663 /* AlyciaITR */,
-				2A478A69DD20C7BDF18591F9F293C2E6 /* Cartography */,
-				F866689419762AF3C6BB706D127B90D9 /* NVActivityIndicatorView */,
-				051F0AC69C80A5EE8B9117645111C13A /* ProgressHUD */,
+				D78189C22F2AE361546C892217248F0A /* ProgressHUD.swift */,
+				1DF920F0F5CF9BE191CD40C0FA6A6745 /* ProgressHUD+AnimatedIcon.swift */,
+				EFBFC5F4B23F361A91D10CCB39BCAE7D /* ProgressHUD+Animations.swift */,
+				4AB403C713B3A05101FD7959AAF1F16D /* ProgressHUD+Banner.swift */,
+				0F89EB2DD89EBEC6FFB498AF9E0710CB /* ProgressHUD+Enums.swift */,
+				3A80A90CEC8D5596096BF73C50FF922E /* ProgressHUD+Public.swift */,
+				A1545F960CEC611D51353EDD17F46F2B /* ProgressView.swift */,
+				184F761F790BAD0B0CAFB23463500D13 /* Support Files */,
 			);
-			name = Pods;
+			name = ProgressHUD;
+			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -488,7 +460,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				CE99467830C0F5CC8B1ADB3607EBF04E /* Pods */,
+				645B2BFE1F0154374D4BA5BCB58B0903 /* Pods */,
 				10F1D86D49762C7BAFC1462B8A2F96F9 /* Products */,
 				AD3356D1205BED408972042F795D9F82 /* Targets Support Files */,
 			);
@@ -511,19 +483,65 @@
 			path = "Target Support Files/Pods-AlyciaApp";
 			sourceTree = "<group>";
 		};
-		EC8576E3B20AF5DDA34C2858981BB78B /* Support Files */ = {
+		DC8742396AF88E58FAB8EB1F63CAB53B /* Cartography */ = {
 			isa = PBXGroup;
 			children = (
-				FA41ADF27C3268D887A6DD6BC32B846D /* Cartography.modulemap */,
-				0B6F57327272CB8635392AB3EB2E6285 /* Cartography-dummy.m */,
-				79DC4126EEFDA6B742F7DC6CA18B2023 /* Cartography-Info.plist */,
-				BBF5EA7C12D1E303D7D83293EDC11FBB /* Cartography-prefix.pch */,
-				413E33B27D9AD2DDEB7D261DCAF0B541 /* Cartography-umbrella.h */,
-				747939DFE8EC302524AD418CB4D1BAA8 /* Cartography.debug.xcconfig */,
-				27BE6F2F1A9D795002448B846890F66E /* Cartography.release.xcconfig */,
+				AADE90DD16C871B0C0649C6C20CEA3E7 /* Align.swift */,
+				320E06F882D5EDA78AD81A03B2B79585 /* AutoresizingMaskLayoutProxy.swift */,
+				4A0838356C378D9E58E3CDE024DB221A /* Coefficients.swift */,
+				41882E1073257E28F98A644A20E91BAB /* Compound.swift */,
+				B605C8F231255CC099F74990F771D094 /* Constrain.swift */,
+				6F537CEB3A6C5DE6C64E75EA9EABFD08 /* Constraint.swift */,
+				A3FD2D231EEE57D149F26AA0C8670ECC /* ConstraintGroup.swift */,
+				14063B25A52754CA5DF52E6AF1BC0646 /* Context.swift */,
+				AC36824EA8ECD7AD126EB9D474679D6D /* Dimension.swift */,
+				702B0B635A5D911F7C256D10CE60DB87 /* Distribute.swift */,
+				D7179865C3134367E110C3AA7E31E13F /* Edge.swift */,
+				72FF2E2890A23D43BA966D8D5A8C6308 /* Edges.swift */,
+				65DB70651ADD774E50B65704DA6B6B1A /* Expression.swift */,
+				B3FEC50E1FD7C06BF072BFE009725158 /* Extensions.swift */,
+				2CEEBC66789FC691D3FAA004598E8B1B /* LayoutGuide.swift */,
+				463C16E2B5785FAFDC69D65C47A6D4AF /* LayoutGuideProxy.swift */,
+				82D0D12E28228FC9CFEFEE9DB011053E /* LayoutItem.swift */,
+				11C43D1A69BCB70FC27E72841394CCFA /* LayoutProxy.swift */,
+				33DB97E3C684C3EF587B99A821D96E3F /* LayoutProxy+TypeErasure.swift */,
+				C334EFAAB793113CCB0318BEBFA7EDD7 /* LayoutSupport.swift */,
+				B30786422313FA8BB3BA54BC87B538FD /* LayoutSupportProxy.swift */,
+				8ACEF6C61D1A8AA9349564507440A74B /* Point.swift */,
+				DE137CC07C8DCB72EE905FBA21F4E93F /* Priority.swift */,
+				E6EE1DA03AA7FF5280794B02BBB3DDB1 /* Property.swift */,
+				03A7B1D5B83D9317655A1CEBB267E97A /* Size.swift */,
+				D0E086A176AE4AB6D06E2B1BD0A561AD /* View.swift */,
+				F77FFF8A103A64C17A334863F33273F2 /* ViewProxy.swift */,
+				E76E228F84D707EC7375760BCE903605 /* Support Files */,
+			);
+			name = Cartography;
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		E76E228F84D707EC7375760BCE903605 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF3621CE4D7674616C6A96CF19726C /* Cartography.modulemap */,
+				19365781B601350246BF08FAEDDE8D4C /* Cartography-dummy.m */,
+				B998CA21EF76130FE4FCF17053E47129 /* Cartography-Info.plist */,
+				EDCF32796FF1B7ADFD8B1CFB32C7F102 /* Cartography-prefix.pch */,
+				64F36B8FFAF7E70557929E25E5EB12DD /* Cartography-umbrella.h */,
+				A9B876ABE1255FB92D3B0DE5A34BC4E1 /* Cartography.debug.xcconfig */,
+				364E6F777511513BD76D2BA11FF8747E /* Cartography.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Cartography";
+			sourceTree = "<group>";
+		};
+		EDEA1BB504C11198F6C3AF97E8A9DB5C /* AlyciaITR */ = {
+			isa = PBXGroup;
+			children = (
+				9734C199BCCAC49A5FD585DE93056ED7 /* Frameworks */,
+				0F5C286B0B495B9C7372DFAD5259782A /* Support Files */,
+			);
+			name = AlyciaITR;
+			path = AlyciaITR;
 			sourceTree = "<group>";
 		};
 		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
@@ -536,11 +554,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F866689419762AF3C6BB706D127B90D9 /* NVActivityIndicatorView */ = {
+		F5C6DB8C804D100DE51C566CBE6300E3 /* NVActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				40921B0372FEEF540528AD68496129DA /* Base */,
-				4AAEDEC5F34577ECAF52EA2331ADE91B /* Support Files */,
+				94398781754FE1A9DA66D97E2A2AB6E7 /* Base */,
+				1A46FD1F77B6DA4C49A5C25A842BE588 /* Support Files */,
 			);
 			name = NVActivityIndicatorView;
 			path = NVActivityIndicatorView;
@@ -549,19 +567,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BEAB9E47E99576CFC49536E3E884D1C /* Headers */ = {
+		34D417B6A06EA77A1926C5ACD602C91A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4908FFFFB3CD42A5C0224521B0BFDF1C /* ProgressHUD-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D3FCD8B6CA8EA6A49EEE47CFA7DB61C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4528254EAACF79B825F7A2AE923C739 /* Cartography-umbrella.h in Headers */,
+				2253F1EDD9DF602195417E2532F0B6C2 /* Cartography-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +580,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4768891A56F1D5A9CB80C37A0E2F338 /* NVActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1B5066C441B7A8FCDB6D6C977ACD54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B81C56216EFF742D6A370487271A77 /* ProgressHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,12 +604,12 @@
 /* Begin PBXNativeTarget section */
 		022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2105F697FCCACFEB965FE2D50188F2F4 /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
+			buildConfigurationList = 6776D334B5A1E493A90E75673ACBDF4A /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
 			buildPhases = (
-				4BEAB9E47E99576CFC49536E3E884D1C /* Headers */,
-				D527994799280EFF7126348FB7167435 /* Sources */,
-				C0902EFC4CAC9794FF666EB2C661A673 /* Frameworks */,
-				EF3CBB0030A94AFD0D9292CAD666F697 /* Resources */,
+				BA1B5066C441B7A8FCDB6D6C977ACD54 /* Headers */,
+				13EFE1B1AC80B08FBC7C99BA6F587754 /* Sources */,
+				7DD1923569D6E72859B29E184C7F2B9F /* Frameworks */,
+				4DCB2489FED4EBEFDC7F84FD93604980 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -604,12 +622,12 @@
 		};
 		8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9E327CBCAF3758AC312553B3D8E80DC /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildConfigurationList = 5B54B698ABBB05ECC2E6797E32E45DDB /* Build configuration list for PBXNativeTarget "Cartography" */;
 			buildPhases = (
-				6D3FCD8B6CA8EA6A49EEE47CFA7DB61C /* Headers */,
-				B3F76493D58E44E754345A9D0AD56F98 /* Sources */,
-				18B2A1B1D4318870C8AFBD35DDF2D627 /* Frameworks */,
-				01B337C8939F7357467F019B028A39AE /* Resources */,
+				34D417B6A06EA77A1926C5ACD602C91A /* Headers */,
+				48BA870044CA595D925B5CBE0D8F862F /* Sources */,
+				1DA32D2A4F506F51E7A1E13FA2D0A54A /* Frameworks */,
+				D4624EEA2F08B24507CFC583DCD2F5BE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -650,10 +668,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				70981E54A91DBC7CF3AD155123BBA014 /* PBXTargetDependency */,
-				93FA7431E945591BA41199CD7D3E59A5 /* PBXTargetDependency */,
-				DDB3EDB696AAFCF0F789895C6BD04A80 /* PBXTargetDependency */,
-				801A5C6E86C44435C4B42E5457047D02 /* PBXTargetDependency */,
+				90CDD605946A3470C3EACD05C4904271 /* PBXTargetDependency */,
+				D6F641419249214DBD7F68983098FAF8 /* PBXTargetDependency */,
+				9D0DA1B1D2EA9AD426DF518056F47ACF /* PBXTargetDependency */,
+				077DE7092289DB855935DEC5F08F7F77 /* PBXTargetDependency */,
 			);
 			name = "Pods-AlyciaApp";
 			productName = Pods_AlyciaApp;
@@ -692,7 +710,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01B337C8939F7357467F019B028A39AE /* Resources */ = {
+		4DCB2489FED4EBEFDC7F84FD93604980 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -706,7 +724,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF3CBB0030A94AFD0D9292CAD666F697 /* Resources */ = {
+		D4624EEA2F08B24507CFC583DCD2F5BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -743,6 +761,56 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		13EFE1B1AC80B08FBC7C99BA6F587754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E2C0A18114F4C170FC3E3820CF7E9A /* ProgressHUD.swift in Sources */,
+				88BC97C68B937C35162D84971AEB68AC /* ProgressHUD+AnimatedIcon.swift in Sources */,
+				544B4130836B1847F5DE78F463AADB49 /* ProgressHUD+Animations.swift in Sources */,
+				C076464A749B76C698F01A4AA4FF4797 /* ProgressHUD+Banner.swift in Sources */,
+				B77F9408B057B367E1BA97B396DE618C /* ProgressHUD+Enums.swift in Sources */,
+				8044AB491478B6226409D09E3F4C4D31 /* ProgressHUD+Public.swift in Sources */,
+				1DEC01F3B07D47458E53B662CB392B8A /* ProgressHUD-dummy.m in Sources */,
+				3DE2636344317EF97DC23D5147115997 /* ProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BA870044CA595D925B5CBE0D8F862F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5531F3CD519143A341636CD7310ECFF7 /* Align.swift in Sources */,
+				648447AA5422DC1A127C1215B10CD88C /* AutoresizingMaskLayoutProxy.swift in Sources */,
+				25DE247A64CA7D06824332CC965C82AC /* Cartography-dummy.m in Sources */,
+				40B6F274DF60B55283FE0622FA769D94 /* Coefficients.swift in Sources */,
+				53C8BD92678EFC83C07B0E9BE62D6F2D /* Compound.swift in Sources */,
+				B666E676A9A0BBCD73FE0759C0CC0653 /* Constrain.swift in Sources */,
+				53306AE99206D02B7FA39E3C128BF3C4 /* Constraint.swift in Sources */,
+				85ADE689F8902764813667C4F2F9FAF3 /* ConstraintGroup.swift in Sources */,
+				4E634F95952D8D10ED9176BE70402257 /* Context.swift in Sources */,
+				56724ECBC3A065DE5FF9BDFC14C0D8F7 /* Dimension.swift in Sources */,
+				362D7786F723E8214B18056B623A28D5 /* Distribute.swift in Sources */,
+				161819857383784DC83BF411A6A7B075 /* Edge.swift in Sources */,
+				9EEEAFA5FCCD99064DE3AD65181C7EA4 /* Edges.swift in Sources */,
+				20E63026818BF6192E671167F5BF1D61 /* Expression.swift in Sources */,
+				99AB37C5065453865A88422FD7099175 /* Extensions.swift in Sources */,
+				C61782C28120ED5DE8D2241B6B90BC9F /* LayoutGuide.swift in Sources */,
+				67F88BAD154620A53117AAC9CA618049 /* LayoutGuideProxy.swift in Sources */,
+				1B018091C80F13538AA20EDBC260F6AB /* LayoutItem.swift in Sources */,
+				9B0293EDA0B133C7772AB0FABC175F59 /* LayoutProxy.swift in Sources */,
+				1ED34FC199AFE5E41AE8FA49174EA228 /* LayoutProxy+TypeErasure.swift in Sources */,
+				5D8FB25ECD15B5C6336CB947C5B6A00C /* LayoutSupport.swift in Sources */,
+				9157541CC98A00110F3A2A0FC5CAD681 /* LayoutSupportProxy.swift in Sources */,
+				ED10DE84AC2A6876897A86F12C748CBB /* Point.swift in Sources */,
+				903D119A050538D0BE21603C67C3FE97 /* Priority.swift in Sources */,
+				5B769EC4689AB2A7F60BC4540C8B7461 /* Property.swift in Sources */,
+				1602F392A905177A2730E0602A9EEA83 /* Size.swift in Sources */,
+				2F44D95BA5C887FB9A5CC03F547EEE1A /* View.swift in Sources */,
+				2155708ACFD9096053AFF4C597AFA46F /* ViewProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AC3E9ABB260062905A58AC93303197D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -796,130 +864,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3F76493D58E44E754345A9D0AD56F98 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92958DD59B2C8EAA14487999AF650B34 /* Align.swift in Sources */,
-				67D3FEA48A8BA3DBC91B7E276807005F /* AutoresizingMaskLayoutProxy.swift in Sources */,
-				79F65ECD35754AE5B4AC8F80957ACD20 /* Cartography-dummy.m in Sources */,
-				3069AF1C87E9F00F6789DFE73FCDE5BA /* Coefficients.swift in Sources */,
-				0ACCC8F64761E68F848BC71264FFC080 /* Compound.swift in Sources */,
-				9FA8087CDE5EAB588079C89063B7EE6E /* Constrain.swift in Sources */,
-				E83D77B42C538C52F649B5F977863344 /* Constraint.swift in Sources */,
-				286037459C2A0F46189C475943B02778 /* ConstraintGroup.swift in Sources */,
-				9C84C338AED07CB5EE1390726005DCB9 /* Context.swift in Sources */,
-				AA471F024F2619C7E256AD240F590F5E /* Dimension.swift in Sources */,
-				E173A6CF4D86F2934F8349AFA11E29DE /* Distribute.swift in Sources */,
-				63B8D74C35CB9339D7A6F0D62F829B95 /* Edge.swift in Sources */,
-				1BD030D912A115F23B82CD3DF0F9A87C /* Edges.swift in Sources */,
-				BFCCA4B152081C18EF8A059ECFE0AED5 /* Expression.swift in Sources */,
-				FB167D38709877D3C5B296661074D581 /* Extensions.swift in Sources */,
-				DF5870F73F368FA8CB9F452B11731FF2 /* LayoutGuide.swift in Sources */,
-				E4C9CD8CC97C68B887AA454378671805 /* LayoutGuideProxy.swift in Sources */,
-				99FA3DA40C588245081664F4CA24B8D7 /* LayoutItem.swift in Sources */,
-				A5A6050C448AAD21273BF99FBFCAB663 /* LayoutProxy.swift in Sources */,
-				7F9A4C792883EB733491ADB1F458650D /* LayoutProxy+TypeErasure.swift in Sources */,
-				4B908579A75BC4935A5A0030FE1F7531 /* LayoutSupport.swift in Sources */,
-				3D0C293277B4DB361BC37D38190BFCD5 /* LayoutSupportProxy.swift in Sources */,
-				B0A51021E2DBE8443DF624AD74EDA9DB /* Point.swift in Sources */,
-				AB7FDF4C42B8BABFA2209E35950B028E /* Priority.swift in Sources */,
-				BD54EF1E1C68D050C2A64C05D69925CD /* Property.swift in Sources */,
-				8B2C8516D0AEFFF8E8577E5B18DE5B71 /* Size.swift in Sources */,
-				6B765753C1A3C7333EB75928A9AC4BE6 /* View.swift in Sources */,
-				21650ABEA291A7421CF664D576148679 /* ViewProxy.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D527994799280EFF7126348FB7167435 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BF1FB66816998C6A16D6045190F355D /* ProgressHUD.swift in Sources */,
-				CD9581FCAA664B751323EDB6195E608B /* ProgressHUD-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		075AD9A5AFEB502C624567933F7B419D /* PBXTargetDependency */ = {
+		077DE7092289DB855935DEC5F08F7F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProgressHUD;
+			target = 022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */;
+			targetProxy = 8644CAADDF87C2E28E0C2F64A3B19B2C /* PBXContainerItemProxy */;
+		};
+		14AFF958DA5AB278B9741CC1E4EABDF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cartography;
 			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
-			targetProxy = 0A13EA0974216EB6057ECBEF874099BD /* PBXContainerItemProxy */;
+			targetProxy = C30A5C15AD40F2FCBBFCD07F8269401B /* PBXContainerItemProxy */;
 		};
-		70981E54A91DBC7CF3AD155123BBA014 /* PBXTargetDependency */ = {
+		41762EC4186D1BBA96AE38FA725DE48A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProgressHUD;
+			target = 022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */;
+			targetProxy = 6B2E4500E5992074C15C0EA558635D06 /* PBXContainerItemProxy */;
+		};
+		90CDD605946A3470C3EACD05C4904271 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AlyciaITR;
 			target = 827CF45CBB179A17D5A35C66EFBAF29B /* AlyciaITR */;
-			targetProxy = B8A7FB7F06728DF24FD7871F89994B02 /* PBXContainerItemProxy */;
+			targetProxy = 3C693CD3A089425DEC481033267B0684 /* PBXContainerItemProxy */;
 		};
-		801A5C6E86C44435C4B42E5457047D02 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ProgressHUD;
-			target = 022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */;
-			targetProxy = 576B96F055F40D76EEE5685ABADB83AF /* PBXContainerItemProxy */;
-		};
-		93FA7431E945591BA41199CD7D3E59A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cartography;
-			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
-			targetProxy = 09F42A90589632C9F731E44BF106B808 /* PBXContainerItemProxy */;
-		};
-		DDB3EDB696AAFCF0F789895C6BD04A80 /* PBXTargetDependency */ = {
+		9D0DA1B1D2EA9AD426DF518056F47ACF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NVActivityIndicatorView;
 			target = AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */;
-			targetProxy = 83AD96DB293032CF5B4C0029F48CA0AF /* PBXContainerItemProxy */;
+			targetProxy = A47D1BB439806F26BDB8C36600D3C4D5 /* PBXContainerItemProxy */;
 		};
-		DF2DA0B90D2E84FC7DC8A1178B90D78A /* PBXTargetDependency */ = {
+		D6F641419249214DBD7F68983098FAF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ProgressHUD;
-			target = 022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */;
-			targetProxy = 90E523BAF7E40B5A2D6CC4FA54E9E5F5 /* PBXContainerItemProxy */;
+			name = Cartography;
+			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
+			targetProxy = 28C0168C43D8DFD89B1971CBAA0FBA6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0600C19C87E875892B21B65A0891A9B0 /* Debug */ = {
+		02FDCAFDF3374CF2C8E213131BAB4FAC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85ACBB20BE9B98B7AF2EBB2DAC0D9FDF /* ProgressHUD.debug.xcconfig */;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = ProgressHUD;
-				PRODUCT_NAME = ProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0994075D0DE90AC1FCD55E87BAB9C688 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 747939DFE8EC302524AD418CB4D1BAA8 /* Cartography.debug.xcconfig */;
+			baseConfigurationReference = 364E6F777511513BD76D2BA11FF8747E /* Cartography.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -947,14 +936,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		205B062120CED0B97673F83570071FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F295DDB32AEA5EB41DDA107F9A23541 /* NVActivityIndicatorView.debug.xcconfig */;
+			baseConfigurationReference = 0BC20DC4540CEFCEF957BB8E72901D6B /* NVActivityIndicatorView.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1053,6 +1043,41 @@
 			};
 			name = Debug;
 		};
+		582B04EB1445D24D745C780BDEEBB338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F78B255CD01C169BB58C7E209366EC /* ProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		70DFDDBD9F8F3F66CDF9DB4E2984B402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC267585B998EAEA5CC22AA7D12C6000 /* Pods-AlyciaApp.release.xcconfig */;
@@ -1094,7 +1119,7 @@
 		};
 		7F7D6B8CFA41427658575AEC930F37B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 582DBB4A04CFA3F65342C889F85741AE /* NVActivityIndicatorView.release.xcconfig */;
+			baseConfigurationReference = 1D2F6A3DC5BF38214F19A8A933E86440 /* NVActivityIndicatorView.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1190,9 +1215,9 @@
 			};
 			name = Release;
 		};
-		A7B5738FA37820D366B282524791BEA8 /* Release */ = {
+		A220736D8E69B688B076EAA7E45BAC83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4AD0C1B704DFF5FAC019942EA5B5226 /* ProgressHUD.release.xcconfig */;
+			baseConfigurationReference = 3E58C14CC74F1E5E731D2303FBA7BB35 /* ProgressHUD.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1225,6 +1250,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		B72A71F75B229B5AED899C9E1809A4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B876ABE1255FB92D3B0DE5A34BC4E1 /* Cartography.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Cartography-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				PRODUCT_MODULE_NAME = Cartography;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		DC6F7B8AD0C1575C0471A8FBD58E4023 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1264,45 +1324,9 @@
 			};
 			name = Debug;
 		};
-		E3FE009E314DB98EAC3B7FD0F15CAFBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27BE6F2F1A9D795002448B846890F66E /* Cartography.release.xcconfig */;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Cartography-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				PRODUCT_MODULE_NAME = Cartography;
-				PRODUCT_NAME = Cartography;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EAF54A990E6A7E0C6CEEDCE82BF437D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C471CBDA7EB744B8D562F74C19ED9E44 /* AlyciaITR.debug.xcconfig */;
+			baseConfigurationReference = BC110F1EBB3EFA3D4B8469B02ACEDDC7 /* AlyciaITR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1320,7 +1344,7 @@
 		};
 		FC010411C7AA9B1C1D9BDFD16144D9CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89E4F8308352313014F513BF8068D98D /* AlyciaITR.release.xcconfig */;
+			baseConfigurationReference = 147DD660079590473E3569F088B7BC3A /* AlyciaITR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1349,20 +1373,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2105F697FCCACFEB965FE2D50188F2F4 /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0600C19C87E875892B21B65A0891A9B0 /* Debug */,
-				A7B5738FA37820D366B282524791BEA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
 				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B54B698ABBB05ECC2E6797E32E45DDB /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72A71F75B229B5AED899C9E1809A4CC /* Debug */,
+				02FDCAFDF3374CF2C8E213131BAB4FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6776D334B5A1E493A90E75673ACBDF4A /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582B04EB1445D24D745C780BDEEBB338 /* Debug */,
+				A220736D8E69B688B076EAA7E45BAC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1381,15 +1414,6 @@
 			buildConfigurations = (
 				205B062120CED0B97673F83570071FF3 /* Debug */,
 				7F7D6B8CFA41427658575AEC930F37B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F9E327CBCAF3758AC312553B3D8E80DC /* Build configuration list for PBXNativeTarget "Cartography" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0994075D0DE90AC1FCD55E87BAB9C688 /* Debug */,
-				E3FE009E314DB98EAC3B7FD0F15CAFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

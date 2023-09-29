@@ -1,12 +1,12 @@
 PODS:
-  - AlyciaITR (0.0.10):
+  - AlyciaITR (0.0.13):
     - Cartography (~> 4.0.0)
     - ProgressHUD
   - Cartography (4.0.0)
   - NVActivityIndicatorView (5.1.1):
     - NVActivityIndicatorView/Base (= 5.1.1)
   - NVActivityIndicatorView/Base (5.1.1)
-  - ProgressHUD (13.8.0)
+  - ProgressHUD (13.8.2)
 
 DEPENDENCIES:
   - AlyciaITR
@@ -20,11 +20,11 @@ SPEC REPOS:
     - ProgressHUD
 
 SPEC CHECKSUMS:
-  AlyciaITR: ec0b775dfa412ed24507a9dcfe4bf9bc9fc13aeb
+  AlyciaITR: 1374edd8d4fa8a47949b2c4a8e973ad0b2edb70e
   Cartography: c5626d29056b20f1e95c017326ee4df57cc39ad8
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
-  ProgressHUD: 6a9123d4d080e8459e89353288dfbe74494ce128
+  ProgressHUD: 68d53be14b14eb3ae391a2ab03f4df1f0340b5d4
 
 PODFILE CHECKSUM: 83c21dd0b4caca52d7f23c75bd98fbda9ad24946
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

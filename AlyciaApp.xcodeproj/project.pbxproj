@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A60715E57E02D2503E23D733 /* Pods_AlyciaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA6B38002A58128C9B72C2C /* Pods_AlyciaApp.framework */; };
+		6B93AF47E4E44EE974393F82 /* Pods_AlyciaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574446D2556948EEC501696B /* Pods_AlyciaApp.framework */; };
 		AD024DB12AC428EE00833BFB /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD024DB02AC428EE00833BFB /* UserListViewController.swift */; };
 		AD024DB32AC4292200833BFB /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD024DB22AC4292200833BFB /* UserDetailViewController.swift */; };
 		AD024DB52AC56B1600833BFB /* AlyciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD024DB42AC56B1600833BFB /* AlyciaViewController.swift */; };
@@ -20,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20AB3320B26C96C9225A5AC6 /* Pods-AlyciaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlyciaApp.debug.xcconfig"; path = "Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2623D89BCAD33316BED6B7BF /* Pods-AlyciaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlyciaApp.release.xcconfig"; path = "Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp.release.xcconfig"; sourceTree = "<group>"; };
+		574446D2556948EEC501696B /* Pods_AlyciaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlyciaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD024DB02AC428EE00833BFB /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		AD024DB22AC4292200833BFB /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		AD024DB42AC56B1600833BFB /* AlyciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlyciaViewController.swift; sourceTree = "<group>"; };
@@ -31,9 +34,6 @@
 		AD1E121A2AC3D2D400BD429D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD1E121D2AC3D2D400BD429D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD1E121F2AC3D2D400BD429D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B40D55EC98AD9440C6CC8088 /* Pods-AlyciaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlyciaApp.debug.xcconfig"; path = "Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp.debug.xcconfig"; sourceTree = "<group>"; };
-		CEA6B38002A58128C9B72C2C /* Pods_AlyciaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlyciaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E000DED5B44FC181D75E49E5 /* Pods-AlyciaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlyciaApp.release.xcconfig"; path = "Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,28 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A60715E57E02D2503E23D733 /* Pods_AlyciaApp.framework in Frameworks */,
+				6B93AF47E4E44EE974393F82 /* Pods_AlyciaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B6E074DD4F9B1FBC6340E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				574446D2556948EEC501696B /* Pods_AlyciaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37463A405E53CF90D1F09475 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B40D55EC98AD9440C6CC8088 /* Pods-AlyciaApp.debug.xcconfig */,
-				E000DED5B44FC181D75E49E5 /* Pods-AlyciaApp.release.xcconfig */,
+				20AB3320B26C96C9225A5AC6 /* Pods-AlyciaApp.debug.xcconfig */,
+				2623D89BCAD33316BED6B7BF /* Pods-AlyciaApp.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		7F094CBD8D7A9DC1F9195699 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CEA6B38002A58128C9B72C2C /* Pods_AlyciaApp.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AD1E12052AC3D2D300BD429D = {
@@ -71,7 +71,7 @@
 				AD1E12102AC3D2D300BD429D /* AlyciaApp */,
 				AD1E120F2AC3D2D300BD429D /* Products */,
 				37463A405E53CF90D1F09475 /* Pods */,
-				7F094CBD8D7A9DC1F9195699 /* Frameworks */,
+				19B6E074DD4F9B1FBC6340E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,11 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD1E12222AC3D2D400BD429D /* Build configuration list for PBXNativeTarget "AlyciaApp" */;
 			buildPhases = (
-				D5A6A0D6D80046B3CA5B3711 /* [CP] Check Pods Manifest.lock */,
+				5C831AC4A6980F444DD86766 /* [CP] Check Pods Manifest.lock */,
 				AD1E120A2AC3D2D300BD429D /* Sources */,
 				AD1E120B2AC3D2D300BD429D /* Frameworks */,
 				AD1E120C2AC3D2D300BD429D /* Resources */,
-				236EC2F9EC4E8D2B8F4E377E /* [CP] Embed Pods Frameworks */,
+				CAC8264A4E09AC9AAADF0700 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,24 +169,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		236EC2F9EC4E8D2B8F4E377E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D5A6A0D6D80046B3CA5B3711 /* [CP] Check Pods Manifest.lock */ = {
+		5C831AC4A6980F444DD86766 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +189,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC8264A4E09AC9AAADF0700 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlyciaApp/Pods-AlyciaApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -362,7 +362,7 @@
 		};
 		AD1E12232AC3D2D400BD429D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40D55EC98AD9440C6CC8088 /* Pods-AlyciaApp.debug.xcconfig */;
+			baseConfigurationReference = 20AB3320B26C96C9225A5AC6 /* Pods-AlyciaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,7 +396,7 @@
 		};
 		AD1E12242AC3D2D400BD429D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E000DED5B44FC181D75E49E5 /* Pods-AlyciaApp.release.xcconfig */;
+			baseConfigurationReference = 2623D89BCAD33316BED6B7BF /* Pods-AlyciaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
